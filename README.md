@@ -1,11 +1,11 @@
 <p align="right"><strong>中文</strong> · <a href="https://github.com/NewenergyEric/NewenergyEric/blob/main/README.en.md">English</a></p>
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="collaboration-still.png">
-  <img src="collaboration-motion.gif" width="1120" alt="Eric — 与 Agent 一起，把想法做出来。人与 Agent 的两条轨迹循环交汇，把提问、构建、试用和复盘带入营销、销售、品牌与运营等工作。">
+  <source media="(prefers-reduced-motion: reduce)" srcset="collaboration-still-zh.png">
+  <img src="collaboration-motion-zh.gif" width="1120" alt="Eric — 与智能体一起，把想法做出来。人与智能体的两条轨迹循环交汇，把提问、构建、试用和复盘带入营销、销售、品牌与运营等工作。">
 </picture>
 
-<p align="right"><sub><a href="collaboration-still.png">静态封面 / Still image</a></sub></p>
+<p align="right"><sub><a href="collaboration-still-zh.png">静态封面</a></sub></p>
 
 # 我是 Eric
 
@@ -73,6 +73,13 @@
 
 <details>
 <summary>English · Read the full introduction here</summary>
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="collaboration-still-en.png">
+  <img src="collaboration-motion-en.gif" width="1120" alt="Eric — learning to build with AI agents. Two looping paths connect people and agents through questioning, building, trying, and refining across marketing, sales, brand, and operations.">
+</picture>
+
+<p align="right"><sub><a href="collaboration-still-en.png">Still image</a></sub></p>
 
 # I'm Eric
 

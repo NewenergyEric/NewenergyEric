@@ -10,11 +10,14 @@ The rhythm is continuous and unhurried. Traveling signals pass through questioni
 
 ## Files
 
-- `collaboration-motion.gif`: 12-second original motion graphic, 20 frames per second, seamless loop.
-- `collaboration-still.png`: static equivalent for reduced-motion preferences and direct viewing.
+- `collaboration-motion-zh.gif`: Chinese edition, including the headline, labels, stages, and business functions.
+- `collaboration-motion-en.gif`: English edition with the same composition and motion.
+- `collaboration-still-zh.png` and `collaboration-still-en.png`: matching static alternatives.
 - `render-motion.py`: reproducible source, using Pillow.
 
-The README uses a `picture` source for `prefers-reduced-motion: reduce` and also offers a direct static-image link. All essential information appears as ordinary README text.
+Both animations run for 12 seconds at 20 frames per second and loop seamlessly. The Chinese edition pairs a Chinese display face with readable labels; the English edition retains the original italic serif headline.
+
+Each README uses a `picture` source for `prefers-reduced-motion: reduce` and offers a direct static-image link in its language. The collapsed English section also includes the English animation and static alternative. All essential information appears as ordinary README text.
 
 The drawing labels business functions only: marketing, sales, brand, and operations. It contains no client or project identities.
 
@@ -23,7 +26,9 @@ The drawing labels business functions only: marketing, sales, brand, and operati
 Install the version in `requirements.txt`, then run:
 
 ```sh
-python render-motion.py --font-dir /path/to/fonts --cjk-font /path/to/chinese-font.ttf
+python render-motion.py --font-dir /path/to/fonts --cjk-font /path/to/chinese-font.ttf --cjk-display-font /path/to/chinese-display-font.ttf --language both --out-dir /path/to/output
 ```
 
-The font directory should contain `InstrumentSerif-Italic.ttf`, `InstrumentSans-Regular.ttf`, `InstrumentSans-Bold.ttf`, and `IBMPlexMono-Regular.ttf`. These families are available under the SIL Open Font License; font binaries are not distributed here. Supply a suitable Chinese font separately. The renderer writes the two final assets and a local contact sheet for review. No client data, external images, credentials, or third-party rendering services are used.
+The font directory should contain `InstrumentSerif-Italic.ttf`, `InstrumentSans-Regular.ttf`, `InstrumentSans-Bold.ttf`, and `IBMPlexMono-Regular.ttf`. These families are available under the SIL Open Font License; font binaries are not distributed here. Supply suitable Chinese fonts separately. The Chinese display font is optional and defaults to the Chinese label font.
+
+The renderer writes four final assets by default. Use `--language zh` or `--language en` for one edition, or `--poster-only` to inspect the static layouts first. Add `--contact-sheet` only when saving review sheets to a local directory outside the public repository. No client data, external images, credentials, or third-party rendering services are used.

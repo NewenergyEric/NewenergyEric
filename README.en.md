@@ -1,11 +1,11 @@
 <p align="right"><a href="https://github.com/NewenergyEric">中文</a> · <strong>English</strong></p>
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="collaboration-still.png">
-  <img src="collaboration-motion.gif" width="1120" alt="Eric — learning to build with AI agents. Two looping paths connect people and agents through questioning, building, trying, and refining across marketing, sales, brand, and operations.">
+  <source media="(prefers-reduced-motion: reduce)" srcset="collaboration-still-en.png">
+  <img src="collaboration-motion-en.gif" width="1120" alt="Eric — learning to build with AI agents. Two looping paths connect people and agents through questioning, building, trying, and refining across marketing, sales, brand, and operations.">
 </picture>
 
-<p align="right"><sub><a href="collaboration-still.png">Still image / 静态封面</a></sub></p>
+<p align="right"><sub><a href="collaboration-still-en.png">Still image</a></sub></p>
 
 # I'm Eric
 

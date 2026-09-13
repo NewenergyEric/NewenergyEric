@@ -6,6 +6,7 @@ This repository presents a personal learning and building practice through busin
 - Do not publish client identities, private links, local paths, contact information, internal screenshots, data samples, proprietary workflows, or unverified performance claims.
 - The confidentiality rule covers Chinese and English text, image pixels, alternative text, filenames, rendering source, comments, metadata, and commit messages.
 - Keep the animation and its static alternative aligned with the README. Re-render both after changing their labels; inspect the result before publishing.
+- Keep the animation's Chinese and English editions aligned. README.md uses the zh images; README.en.md and the collapsed English section use the en images. Each picture's reduced-motion source must use the same language as its animation.
 - Publish only the intended profile files. Keep local research, source-to-project mappings, history backups, and review contact sheets outside this repository.
 - Inspect the current remote state before writing and preserve unrelated work. Do not restore content from older, unsanitized profile copies.
 - Retain the reduced-motion image source, static-image link, and collapsed English section.

@@ -1,4 +1,4 @@
-"""Draw Eric's original GitHub profile motion graphic and static alternative."""
+"""Draw localized GitHub profile animations and matching static alternatives."""
 from __future__ import annotations
 
 import argparse
@@ -15,6 +15,41 @@ MINT = (109, 225, 190)
 MUTED = (155, 177, 184)
 GRID = (24, 43, 56)
 RULE = (46, 67, 79)
+
+COPY = {
+    "zh": {
+        "name": "ERIC / 与智能体一起创造",
+        "status": "持续学习 · 持续实践",
+        "hero": ("让好奇心", "变得有用。"),
+        "subtitle": "与智能体一起，把想法做出来。",
+        "topics": "创意  /  产品  /  方法",
+        "person": "人",
+        "agent": "智能体",
+        "learning": "在协作中一起进步",
+        "reflection": "每次复盘，提出更好的问题",
+        "functions_title": "业务职能",
+        "functions": ("营销", "销售", "品牌", "运营"),
+        "stages": ("提问", "构建", "试用", "复盘"),
+        "footer_steps": "提问 · 构建 · 试用 · 复盘",
+        "footer_collaboration": "人的判断 + 智能体协作",
+    },
+    "en": {
+        "name": "ERIC / BUILDING WITH AGENTS",
+        "status": "A PRACTICE IN PROGRESS",
+        "hero": ("Curiosity.", "Made useful."),
+        "subtitle": "Building ideas with AI agents.",
+        "topics": "IDEAS  /  PRODUCTS  /  METHODS",
+        "person": "HUMAN",
+        "agent": "AGENTS",
+        "learning": "LEARNING GOES BOTH WAYS",
+        "reflection": "EVERY RETURN, A BETTER QUESTION",
+        "functions_title": "BUSINESS FUNCTIONS",
+        "functions": ("Marketing", "Sales", "Brand", "Operations"),
+        "stages": ("QUESTION", "BUILD", "TRY", "REFINE"),
+        "footer_steps": "ASK. BUILD. TRY. REFINE.",
+        "footer_collaboration": "HUMAN INTENT + AGENT COLLABORATION",
+    },
+}
 
 
 def mix(a, b, p):
@@ -50,20 +85,21 @@ def orbit(t):
     return 828 + 217 * math.sin(a), 208 + 96 * math.sin(2*a)
 
 
-def make_fonts(directory, cjk):
+def make_fonts(directory, cjk, cjk_display, language):
     def f(name, size):
         return ImageFont.truetype(str(directory / name), size*SCALE)
+    def cn(size, display=False):
+        return ImageFont.truetype(str(cjk_display if display else cjk), size*SCALE)
+    chinese = language == "zh"
     return {
-        "hero": f("InstrumentSerif-Italic.ttf", 76),
-        "label": f("IBMPlexMono-Regular.ttf", 13),
-        "step": f("InstrumentSans-Bold.ttf", 18),
-        "small": f("InstrumentSans-Regular.ttf", 15),
-        "product": f("InstrumentSans-Bold.ttf", 17),
-        "cn": ImageFont.truetype(str(cjk), 22*SCALE),
+        "hero": cn(72, display=True) if chinese else f("InstrumentSerif-Italic.ttf", 76),
+        "label": cn(14) if chinese else f("IBMPlexMono-Regular.ttf", 13),
+        "function": cn(18) if chinese else f("InstrumentSans-Bold.ttf", 17),
+        "subtitle": cn(22) if chinese else f("InstrumentSans-Regular.ttf", 22),
     }
 
 
-def base_art(fonts):
+def base_art(fonts, copy):
     im = Image.new("RGB", (W*SCALE, H*SCALE), BG)
     c = Drawing(im)
     # Registration grid only inside the drawing field, with ample quiet space.
@@ -72,13 +108,13 @@ def base_art(fonts):
             c.circle(x, y, .7, fill=GRID)
     c.line([(48, 55), (1072, 55)], RULE)
     c.circle(54, 31, 4, fill=MINT)
-    c.text((69, 22), "ERIC / BUILDING WITH AGENTS", fonts["label"], MUTED)
-    c.text((1072, 22), "A PRACTICE IN PROGRESS", fonts["label"], MUTED, "ra")
+    c.text((69, 22), copy["name"], fonts["label"], MUTED)
+    c.text((1072, 22), copy["status"], fonts["label"], MUTED, "ra")
 
-    c.text((45, 83), "Curiosity.", fonts["hero"], INK)
-    c.text((45, 161), "Made useful.", fonts["hero"], MINT)
-    c.text((49, 273), "与 Agent 一起，把想法做出来。", fonts["cn"], INK)
-    c.text((49, 316), "IDEAS  /  PRODUCTS  /  METHODS", fonts["label"], MUTED)
+    c.text((45, 83), copy["hero"][0], fonts["hero"], INK)
+    c.text((45, 161), copy["hero"][1], fonts["hero"], MINT)
+    c.text((49, 273), copy["subtitle"], fonts["subtitle"], INK)
+    c.text((49, 316), copy["topics"], fonts["label"], MUTED)
 
     # One continuous figure-eight: each side meets the other twice per cycle.
     pts = [orbit(i/560) for i in range(561)]
@@ -92,28 +128,28 @@ def base_art(fonts):
     # Human glyph, drawn as a precise line symbol rather than an emoji.
     c.circle(673, 201, 4, outline=INK, width=1.4)
     c.line([(666, 217), (667, 212), (670, 209), (676, 209), (679, 212), (680, 217)], INK, 1.4)
-    c.text((691, 199), "HUMAN", fonts["label"], INK)
+    c.text((691, 199), copy["person"], fonts["label"], INK)
     # Agent glyph: modular capability in a small open frame.
     c.box((899, 199, 915, 216), radius=3, outline=MINT, width=1.3)
     c.circle(904, 206, 1.2, fill=MINT)
     c.circle(911, 206, 1.2, fill=MINT)
     c.line([(904, 211), (911, 211)], MINT, 1.2)
     c.line([(907, 195), (907, 199)], MINT, 1.2)
-    c.text((925, 199), "AGENTS", fonts["label"], MINT)
+    c.text((925, 199), copy["agent"], fonts["label"], MINT)
 
-    c.text((828, 78), "LEARNING GOES BOTH WAYS", fonts["label"], MUTED, "ma")
-    c.text((828, 317), "EVERY RETURN, A BETTER QUESTION", fonts["label"], MUTED, "ma")
+    c.text((828, 78), copy["learning"], fonts["label"], MUTED, "ma")
+    c.text((828, 317), copy["reflection"], fonts["label"], MUTED, "ma")
     c.line([(48, 370), (1072, 370)], RULE)
-    c.text((49, 387), "BUSINESS FUNCTIONS", fonts["label"], MUTED)
-    for x, label in [(354,"Marketing"),(546,"Sales"),(706,"Brand"),(887,"Operations")]:
+    c.text((49, 387), copy["functions_title"], fonts["label"], MUTED)
+    for x, label in zip((354, 546, 706, 887), copy["functions"]):
         c.circle(x, 401, 2.4, fill=MINT)
-        c.text((x+13, 389), label, fonts["product"], INK)
-    c.text((49, 426), "ASK. BUILD. TRY. REFINE.", fonts["label"], MUTED)
-    c.text((1072, 426), "HUMAN INTENT + AGENT COLLABORATION", fonts["label"], MUTED, "ra")
+        c.text((x+13, 389), label, fonts["function"], INK)
+    c.text((49, 426), copy["footer_steps"], fonts["label"], MUTED)
+    c.text((1072, 426), copy["footer_collaboration"], fonts["label"], MUTED, "ra")
     return im
 
 
-def frame(base, fonts, t, still=False):
+def frame(base, fonts, copy, t, still=False):
     im = base.copy()
     c = Drawing(im)
     # Fixed-length soft trails in opposite halves represent reciprocal feedback.
@@ -135,7 +171,7 @@ def frame(base, fonts, t, still=False):
     c.circle(828,208,2,fill=INK)
 
     # A four-stage progression; active words crossfade without shifting layout.
-    stages = ["QUESTION", "BUILD", "TRY", "REFINE"]
+    stages = copy["stages"]
     stage = (t*4) % 4
     for j, label in enumerate(stages):
         x = 582+j*125
@@ -164,29 +200,43 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--font-dir", type=Path, required=True)
     parser.add_argument("--cjk-font", type=Path, required=True)
+    parser.add_argument("--cjk-display-font", type=Path,
+                        help="Optional Chinese headline font; defaults to --cjk-font.")
+    parser.add_argument("--language", choices=("zh", "en", "both"), default="both")
     parser.add_argument("--out-dir", type=Path, default=Path(__file__).resolve().parent)
     parser.add_argument("--poster-only", action="store_true")
+    parser.add_argument("--contact-sheet", action="store_true",
+                        help="Write local review sheets; do not publish these files.")
     args = parser.parse_args()
     args.out_dir.mkdir(parents=True, exist_ok=True)
-    fonts = make_fonts(args.font_dir, args.cjk_font)
-    base = base_art(fonts)
-    frame(base, fonts, .18, still=True).save(args.out_dir/"collaboration-still.png", optimize=True)
-    if args.poster_only:
-        print("Static composition ready.")
-        return
-    frames = [frame(base, fonts, i/(FPS*SECONDS)) for i in range(FPS*SECONDS)]
-    save_animation(frames, args.out_dir/"collaboration-motion.gif")
-    sheet = Image.new("RGB", (W,H*3), BG)
-    for row, i in enumerate([0,80,160]):
-        sheet.paste(frames[i], (0,row*H))
-    sheet.save(args.out_dir/"contact-sheet.png", optimize=True)
-    gif = Image.open(args.out_dir/"collaboration-motion.gif")
-    total_duration = 0
-    for i in range(gif.n_frames):
-        gif.seek(i)
-        total_duration += gif.info.get("duration",0)
-    print(f"Verified GIF: {gif.size}, {gif.n_frames} frames, {total_duration} ms")
-    print(f"Size: {(args.out_dir/'collaboration-motion.gif').stat().st_size:,} bytes")
+    languages = ("zh", "en") if args.language == "both" else (args.language,)
+    for language in languages:
+        copy = COPY[language]
+        fonts = make_fonts(args.font_dir, args.cjk_font,
+                           args.cjk_display_font or args.cjk_font, language)
+        base = base_art(fonts, copy)
+        still_path = args.out_dir / f"collaboration-still-{language}.png"
+        animation_path = args.out_dir / f"collaboration-motion-{language}.gif"
+        frame(base, fonts, copy, .18, still=True).save(still_path, optimize=True)
+        if args.poster_only:
+            print(f"{language}: static composition ready.", flush=True)
+            continue
+        frames = [frame(base, fonts, copy, i/(FPS*SECONDS)) for i in range(FPS*SECONDS)]
+        save_animation(frames, animation_path)
+        if args.contact_sheet:
+            sheet = Image.new("RGB", (W,H*3), BG)
+            for row, i in enumerate([0,80,160]):
+                sheet.paste(frames[i], (0,row*H))
+            sheet.save(args.out_dir / f"contact-sheet-{language}.png", optimize=True)
+        with Image.open(animation_path) as gif:
+            total_duration = 0
+            for i in range(gif.n_frames):
+                gif.seek(i)
+                total_duration += gif.info.get("duration",0)
+            print(f"{language}: verified {gif.size}, {gif.n_frames} frames, "
+                  f"{total_duration} ms, {animation_path.stat().st_size:,} bytes", flush=True)
+        for rendered in frames:
+            rendered.close()
 
 
 if __name__ == "__main__":
