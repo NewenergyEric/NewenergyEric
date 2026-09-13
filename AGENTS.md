@@ -9,5 +9,8 @@ This repository presents a personal learning and building practice through busin
 - Publish only the intended profile files. Keep local research, source-to-project mappings, history backups, and review contact sheets outside this repository.
 - Inspect the current remote state before writing and preserve unrelated work. Do not restore content from older, unsanitized profile copies.
 - Retain the reduced-motion image source, static-image link, and collapsed English section.
+- Maintain visible language links at the top: Chinese is the profile default and English opens README.en.md. The English page links back to the Chinese profile.
+- Update Chinese and English together. Keep the English introduction in README.en.md identical to the English body inside the collapsed section of README.md.
+- Use a direct first-person voice, concrete work, and clearly stated judgments. Keep the nine business functions. Do not copy another creator's signature wording, achievements, or identity.
 
 Confidentiality is the default for future updates; access to project material is not permission to disclose it on the public profile.
