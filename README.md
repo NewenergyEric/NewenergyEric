@@ -1,148 +1,116 @@
 <p align="right"><strong>中文</strong> · <a href="https://github.com/NewenergyEric/NewenergyEric/blob/main/README.en.md">English</a></p>
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="collaboration-still-zh.png">
-  <img src="collaboration-motion-zh.gif" width="1120" alt="Eric — 与智能体一起，把想法做出来。人与智能体的两条轨迹循环交汇，把提问、构建、试用和复盘带入营销、销售、品牌与运营等工作。">
+  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-zh.png">
+  <img src="media/work-motion-zh.gif" width="1100" alt="Eric 的工作近况：营销、销售、品牌、客服、运营、数据、产品、Agent 和方法。九段工作示意循环播放，完整介绍在下方。">
 </picture>
 
-<p align="right"><sub><a href="collaboration-still-zh.png">静态封面</a></sub></p>
+<p align="right"><sub><a href="media/work-still-zh.png">静态封面</a></sub></p>
 
-# 我是 Eric
+# 我在和 Agent 一起做什么
 
-**从不会写代码开始，和 AI Agent 一起把想法做出来。**
+我从不会写代码开始，现在在和 AI Agent 一起做一些自己想用的工具。做的东西比较杂，营销、销售、品牌、客服，还有数据分析，很多都来自实际工作里碰到的问题。
 
-我把业务里的问题带进开发：一份反复整理的报表，一次缺少依据的判断，一段总要人工衔接的流程。
+我比较在意的是，做出来以后到底好不好用。所以会自己试，不顺就继续改。过程中也在学怎么把问题讲清楚，怎么判断 Agent 做得对不对。能用的方法会整理成文档和 Skill，下次接着用。
 
-我来说明目标、提供业务背景、检查结果；Agent 帮我研究、写代码、做原型。我也在这个过程中学习开发，把试用中的反馈写回工具和方法。
+下面按职能写了我正在做的事情。有些还在做原型，有些已经进入试用。涉及客户的项目就不写名字了。
 
-我想让创意有人用，让思考能执行，让方法在下一次工作里继续产生价值。
+## 营销与内容
 
----
+我在试着把营销工作接起来，从查人群、看竞品，到做方案、写文案和视频分镜。前面做的研究，后面做内容时应该能用上。我也在整理不同渠道的内容做法，方便反复修改和使用。
 
-## 我正在做什么
+## 销售与商务拓展
 
-### 品牌与定位 · 把产品的价值说清楚
+销售这边，我在用 Agent 研究潜在客户、创作者和合作伙伴，整理值得接触的人，以及为什么值得聊。再往下是提案准备和跟进安排，尽量让每次沟通都有具体的背景。
 
-我把人群研究、竞品观察和使用场景放在一起，提炼定位、卖点和品牌故事，再把它们落实到文案与视觉规范。
+## 品牌与定位
 
-### 营销与内容 · 从研究走到内容制作
+我会先看产品给谁用、解决什么问题，再看竞品怎么说。想清楚以后，再做定位、卖点、品牌故事和视觉规范。我希望最后的表达能说清楚这个产品。
 
-我在做从市场研究到内容制作的工作流程：活动方案、跨渠道文案、创意简报、视频分镜。产品事实和传播目的，要能一路保留下来。
+## 客户服务与知识
 
-### 销售与商务拓展 · 让每次接触都有准备
+客服和知识库是我一直在做的方向。资料散在不同地方，回答很容易漏信息。我在把检索、答复草稿、来源核对和人工审核接起来，也会用常见问题检查系统是不是回答得更稳了。
 
-我用 Agent 研究潜在客户、创作者和合作伙伴，整理优先级、提案和跟进准备。希望交到销售手里的，有接触的理由，也有清楚的下一步。
+## 运营与团队协作
 
-### 客户服务与知识 · 让回答找得到依据
+有些工作本身不复杂，麻烦在资料没齐、审批没走完，或者不知道该交给谁。我在把这些环节整理成流程，让任务状态、责任人和异常情况能看得见。
 
-我在把分散资料整理成可检索的知识，让客服答复能结合上下文起草、回到原始资料核对、经过人工审核。常见问题也会成为下一轮改进的样本。
+## 数据分析与决策
 
-### 运营与团队协作 · 把交接的空白补上
+我在做广告和经营数据的分析，先把数据清洗和指标口径弄清楚，再做看板、找异常、整理建议。看到一个结果时，我想知道它是怎么算出来的，也想知道接下来能试着改什么。
 
-资料是否齐全、谁来审批、任务卡在哪里、异常由谁接手——我把这些容易藏在聊天里的问题，整理进可追踪的流程。
+## 产品与交互体验
 
-### 数据分析与决策 · 让报表支持下一步行动
+浏览器助手、本地工具、语音交互和学习体验，我都有在尝试。通常先和 Agent 做一版，自己从头用一遍。功能能运行以后，还要继续看哪里不顺手、哪里容易让人误解。
 
-我从清洗数据、统一口径做起，尝试把广告与经营数据整理成看板、诊断和策略报告。每个结论都要能回到数据，每份建议都要说明适用条件。
+## Agent 能力与流程工程
 
-### 产品与交互体验 · 让原型接受真实使用
+我也在做定制 Agent 和协作工作台，把知识、工具、Skill 组合起来。这里会花不少时间检查执行过程：拿到了什么资料，用了什么工具，哪里需要我来确认，以及出错以后怎么查。
 
-浏览器助手、本地工具、语音交互、学习体验，都是我在尝试的形式。我和 Agent 一起做出原型，再亲自走一遍流程，把使用中遇到的问题带回下一轮修改。
+## 方法沉淀与培训
 
-### Agent 能力与流程工程 · 让协作过程可以检查
+做过的事情，我会把判断过程、失败和修改记下来，再整理成操作指南、课程练习或者 Skill。这样下次碰到类似问题，可以接着做，也方便拿出来和别人讨论。
 
-我在组合知识、工具和 Skill，探索定制 Agent 与协作工作台。除了功能，也持续打磨评测、权限、人工审核和执行记录。
+## 我和 Agent 怎么一起做
 
-### 方法沉淀与培训 · 把一次探索留下来
-
-我把项目中的判断、失败和复盘写成操作指南、课程、练习和可复用 Skill。以后遇到相似问题，有经验可以接着用。
-
-*这些工作涵盖原型开发、功能验证与试点探索。这里用职能和方法介绍实践，不披露客户身份、真实项目名称、内部资料或专属流程。*
-
----
-
-## 我在反复练习的三件事
-
-**先把目标说清楚。** 谁会使用、哪里不顺、怎样算完成，尽量在动手前讲明白。
-
-**亲自用过，再下判断。** 我会走完一段实际流程，记录哪里卡住、哪里仍要人工补位，再决定怎样改。
-
-**让反馈改变下一次协作。** 提问、构建、试用、复盘，再更新文档、流程和 Skill。我希望自己与 Agent 的每一次合作，都能用上上一次留下的经验。
-
-欢迎交流 Agent 协作、业务问题的产品化，以及从零开始把想法做出来的过程。
+通常是我先说明想做什么、为什么要做，让 Agent 帮忙研究和实现，再一起检查结果。有些想法试完会改，有些会暂时放下。每次做完，能留下一个好用的工具，或者搞清楚一个问题，我觉得就有价值。
 
 <details>
 <summary>English · Read the full introduction here</summary>
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="collaboration-still-en.png">
-  <img src="collaboration-motion-en.gif" width="1120" alt="Eric — learning to build with AI agents. Two looping paths connect people and agents through questioning, building, trying, and refining across marketing, sales, brand, and operations.">
+  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-en.png">
+  <img src="media/work-motion-en.gif" width="1100" alt="Eric’s current work: marketing, sales, brand, support, operations, data, product, agents, and methods. Nine illustrated scenes loop; the full introduction follows below.">
 </picture>
 
-<p align="right"><sub><a href="collaboration-still-en.png">Still image</a></sub></p>
+<p align="right"><sub><a href="media/work-still-en.png">Still image</a></sub></p>
 
-# I'm Eric
+# What I am building with agents
 
-**I started without knowing how to code. Now I build with AI agents and learn as I go.**
+I started without knowing how to code. Now I work with AI agents on tools I want to use myself. The work covers marketing, sales, brand, customer support, and data analysis. Much of it starts with a problem I have run into at work.
 
-I bring everyday business problems into development: a report that needs repeated cleanup, a decision with little evidence behind it, a process held together by manual handoffs.
+I care about whether the result is useful, so I try it myself and keep changing what feels awkward. Along the way, I am learning to explain problems and judge an agent’s work. I keep methods that work in documents and skills so I can use them again.
 
-I define the goal, provide the business context, and check the results. Agents help me research, write code, and build prototypes. That is also how I learn to develop: by trying things and feeding what I learn back into the tools and methods.
+These are the areas I am working on. Some are still prototypes; others are being tried in practice. I leave out project names where clients are involved.
 
-I want ideas to become things people use, thinking to become action, and methods to keep helping with the next piece of work.
+## Marketing and content
 
----
+I am connecting audience and competitor research with campaign planning, copy, and video storyboards. The research should help when it is time to make the content. I am also organizing approaches for different channels so they are easier to revise and use again.
 
-## What I'm working on
+## Sales and partnerships
 
-### Brand and positioning · Make the product's value clear
+I use agents to research prospects, creators, and potential partners, including why a conversation might be worth having. I am also working on proposal preparation and follow-up planning so each conversation has useful context behind it.
 
-I bring together audience research, competitor observations, and use cases to develop positioning, selling points, and brand stories, then carry those decisions into copy and visual guidelines.
+## Brand and positioning
 
-### Marketing and content · Carry research into production
+I start with who the product is for and what problem it solves, then look at how competitors describe their products. That informs the positioning, selling points, brand story, and visual guidelines. I want the result to explain the product clearly.
 
-I'm building workflows that connect market research with campaign plans, channel copy, creative briefs, and storyboards. Product facts and the purpose of the communication need to survive each step.
+## Customer support and knowledge
 
-### Sales and partnerships · Prepare for each conversation
+Customer support and knowledge systems are areas I keep working on. When information is scattered, replies can miss things. I am connecting retrieval, reply drafts, source checks, and human review, then using recurring questions to check how well the system answers.
 
-I use agents to research prospects, creators, and potential partners, and to organize priorities, proposals, and follow-up preparation. The aim is to give sales a reason to reach out and a clear next step.
+## Operations and collaboration
 
-### Customer support and knowledge · Make answers traceable
+Some work is straightforward until information is missing, approval is pending, or nobody knows who takes it next. I am organizing these steps into workflows that make the status, owner, and exceptions visible.
 
-I'm organizing scattered material into searchable knowledge so reply drafts can use the conversation's context, be checked against their sources, and receive human review. Recurring questions also become examples for the next round of improvements.
+## Data and decisions
 
-### Operations and collaboration · Close the gaps in handoffs
+I work on advertising and business data, starting with cleanup and consistent metric definitions. Then I build dashboards, investigate unusual results, and prepare suggestions. I want to understand how a result was calculated and what might be worth changing next.
 
-I turn questions often buried in chat into traceable workflows: whether the information is complete, who needs to approve it, where a task is stuck, and who takes over when something goes wrong.
+## Product and interaction
 
-### Data and decisions · Help reports inform the next action
+I am trying browser assistants, local tools, voice interaction, and learning experiences. Usually I build a first version with agents and use it from beginning to end myself. Once it runs, there is still work to do on the parts that feel awkward or confusing.
 
-I start with data cleanup and consistent definitions, then explore dashboards, diagnostics, and strategy reports for advertising and business data. Conclusions should trace back to the data, and recommendations should state when they apply.
+## Agent workflows
 
-### Product and interaction · Put prototypes to use
+I am also building custom agents and shared workspaces by combining knowledge, tools, and skills. I spend time checking what material an agent used, which tools it called, when it needs my confirmation, and how to trace an error.
 
-Browser assistants, local tools, voice interaction, and learning experiences are some of the forms I'm exploring. I build prototypes with agents, walk through the experience myself, and bring the problems I find into the next revision.
+## Methods and training
 
-### Agent workflows · Make the work inspectable
+I keep notes on the decisions, failures, and revisions, then turn them into guides, course exercises, or skills. That gives me a place to start when a similar problem comes up, and something concrete to discuss with other people.
 
-I'm combining knowledge, tools, and skills to explore custom agents and shared workspaces. Alongside functionality, I keep refining evaluation, permissions, human review, and execution records.
+## How I work with agents
 
-### Methods and training · Keep what each attempt teaches
-
-I turn decisions, failures, and reviews into operating guides, courses, exercises, and reusable skills. When a similar problem comes up, there should be something useful to build on.
-
-*This work spans prototypes, validation, and pilots. I describe it through functions and methods without disclosing client identities, actual project names, internal material, or proprietary workflows.*
-
----
-
-## Three things I keep practicing
-
-**Define the goal before building.** Be clear about who will use it, what gets in their way, and what a useful result would look like.
-
-**Use it before judging it.** I walk through a real workflow, note where it gets stuck or still needs manual help, and use that to decide what to change.
-
-**Let feedback change the next collaboration.** Ask, build, try, review, then update the documentation, workflow, and skills. I want each collaboration with agents to benefit from what the last one taught me.
-
-I'm happy to exchange ideas about working with agents, turning business problems into products, and learning to build from scratch.
+I usually start by explaining what I want to do and why. Agents help with the research and implementation, and we check the result together. Some ideas change after I try them; some get put aside. A useful tool or a better understanding of a problem is a worthwhile result for me.
 
 </details>

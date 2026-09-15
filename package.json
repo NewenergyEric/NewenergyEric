@@ -1,0 +1,16 @@
+{
+  "name": "eric-profile-motion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node render-motion.mjs",
+    "docs": "node render-motion.mjs --docs-only",
+    "posters": "node render-motion.mjs --posters-only"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "sharp": "0.35.4"
+  }
+}

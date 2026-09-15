@@ -1,34 +1,30 @@
-# Reciprocal Motion
+# Current work, in motion
 
-A thought becomes useful through a return journey. Two continuous trajectories meet, exchange momentum, and retain their own character. The drawing gives equal weight to the person bringing questions and the agents helping make them tangible. Each return belongs to the same structure, while a moving highlight makes the passage of attention visible.
+Nine scenes show the work described in the profile: marketing, sales, brand, support, operations, data, product, agent workflows, and methods. Each scene runs for five seconds. The Chinese and English editions share the same drawings and timing, with localized text throughout.
 
-Midnight blue provides a quiet field. Chalk marks belong to human intention; a restrained mint accent belongs to collaboration. Fine, carefully spaced construction marks lend the surface the precision of a workshop drawing. The limited palette keeps the motion legible and lets subtle differences in line weight do the work.
-
-The composition holds an expressive typographic statement beside a precisely drawn reciprocal path. Large lettering provides a point of rest, while small labels establish scale. Generous negative space protects the two forms. Spacing, curves and optical alignment are treated with the same care as the headline.
-
-The rhythm is continuous and unhurried. Traveling signals pass through questioning, building, testing and refinement; a return carries what was learned back into the next attempt. Attention to the seam, the shape of each trail and the balance of still and moving elements gives the loop its finished character.
+The illustrations use a white background, navy outlines, and teal and blue accents. Documents move through a workflow, charts build, prototypes respond, and notes are saved for the next task. All examples are illustrative; they contain no client data or project identities.
 
 ## Files
 
-- `collaboration-motion-zh.gif`: Chinese edition, including the headline, labels, stages, and business functions.
-- `collaboration-motion-en.gif`: English edition with the same composition and motion.
-- `collaboration-still-zh.png` and `collaboration-still-en.png`: matching static alternatives.
-- `render-motion.py`: reproducible source, using Pillow.
+- `media/work-motion-zh.gif` and `media/work-motion-en.gif`: 1100 × 650, 20 frames per second, 900 frames, 45 seconds, looping continuously.
+- `media/work-still-zh.png` and `media/work-still-en.png`: matching static alternatives.
+- `motion/content.mjs`: bilingual scene labels and profile copy.
+- `motion/motion.mjs`: deterministic SVG drawings and animation timing.
+- `render-motion.mjs`: builds both READMEs and the four media files.
 
-Both animations run for 12 seconds at 20 frames per second and loop seamlessly. The Chinese edition pairs a Chinese display face with readable labels; the English edition retains the original italic serif headline.
+Both READMEs include a reduced-motion image source and a direct static-image link. All essential information is also written as ordinary text. The English edition and the collapsed English section on the Chinese page are generated from the same content.
 
-Each README uses a `picture` source for `prefers-reduced-motion: reduce` and offers a direct static-image link in its language. The collapsed English section also includes the English animation and static alternative. All essential information appears as ordinary README text.
+## Rebuild
 
-The drawing labels business functions only: marketing, sales, brand, and operations. It contains no client or project identities.
-
-## Recreate
-
-Install the version in `requirements.txt`, then run:
+Use Node.js 20 or later and install the dependency in `package.json`:
 
 ```sh
-python render-motion.py --font-dir /path/to/fonts --cjk-font /path/to/chinese-font.ttf --cjk-display-font /path/to/chinese-display-font.ttf --language both --out-dir /path/to/output
+npm install
+npm run build
 ```
 
-The font directory should contain `InstrumentSerif-Italic.ttf`, `InstrumentSans-Regular.ttf`, `InstrumentSans-Bold.ttf`, and `IBMPlexMono-Regular.ttf`. These families are available under the SIL Open Font License; font binaries are not distributed here. Supply suitable Chinese fonts separately. The Chinese display font is optional and defaults to the Chinese label font.
+The renderer uses Microsoft YaHei for Chinese and Arial for Latin text, falling back to the installed sans-serif fonts. Install suitable fonts before rendering; they are not bundled here. Font substitutions can change the layout. The published images were rendered with Microsoft YaHei available.
 
-The renderer writes four final assets by default. Use `--language zh` or `--language en` for one edition, or `--poster-only` to inspect the static layouts first. Add `--contact-sheet` only when saving review sheets to a local directory outside the public repository. No client data, external images, credentials, or third-party rendering services are used.
+To update the READMEs without rendering images, run `npm run docs`. To render only the two static images, run `npm run posters`. Use `--zh` or `--en` to render one language. Both READMEs are always updated together.
+
+Use `node render-motion.mjs --out-dir ./preview` to write all output to a separate directory for review. Keep review output outside commits. Inspect both languages and every scene after changing labels or drawings, then publish the matching GIFs and still images together.
