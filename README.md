@@ -1,116 +1,133 @@
-<p align="right"><strong>中文</strong> · <a href="https://github.com/NewenergyEric/NewenergyEric/blob/main/README.en.md">English</a></p>
+<p align="right"><strong>English</strong> · <a href="https://github.com/NewenergyEric/NewenergyEric/blob/main/README.zh.md">中文</a></p>
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-zh.png">
-  <img src="media/work-motion-zh.gif" width="1100" alt="Eric 的工作近况：营销、销售、品牌、客服、运营、数据、产品、Agent 和方法。九段工作示意循环播放，完整介绍在下方。">
-</picture>
+# Hi, I’m Eric
 
-<p align="right"><sub><a href="media/work-still-zh.png">静态封面</a></sub></p>
+### I turn real work into reusable AI skills.
 
-# 我在和 Agent 一起做什么
+I started without knowing how to code. I still begin in the same place: with a problem I actually want to solve.
 
-我从不会写代码开始，现在在和 AI Agent 一起做一些自己想用的工具。做的东西比较杂，营销、销售、品牌、客服，还有数据分析，很多都来自实际工作里碰到的问题。
+I work with agents to understand the problem, build a useful first version, try it end to end, and keep revising. When something works, I do not leave it in a chat. I turn the decisions, failures, and know-how into a Skill, tool, workflow, or playbook that the next person—and the next agent—can continue from.
 
-我比较在意的是，做出来以后到底好不好用。所以会自己试，不顺就继续改。过程中也在学怎么把问题讲清楚，怎么判断 Agent 做得对不对。能用的方法会整理成文档和 Skill，下次接着用。
-
-下面按职能写了我正在做的事情。有些还在做原型，有些已经进入试用。涉及客户的项目就不写名字了。
-
-## 营销与内容
-
-我在试着把营销工作接起来，从查人群、看竞品，到做方案、写文案和视频分镜。前面做的研究，后面做内容时应该能用上。我也在整理不同渠道的内容做法，方便反复修改和使用。
-
-## 销售与商务拓展
-
-销售这边，我在用 Agent 研究潜在客户、创作者和合作伙伴，整理值得接触的人，以及为什么值得聊。再往下是提案准备和跟进安排，尽量让每次沟通都有具体的背景。
-
-## 品牌与定位
-
-我会先看产品给谁用、解决什么问题，再看竞品怎么说。想清楚以后，再做定位、卖点、品牌故事和视觉规范。我希望最后的表达能说清楚这个产品。
-
-## 客户服务与知识
-
-客服和知识库是我一直在做的方向。资料散在不同地方，回答很容易漏信息。我在把检索、答复草稿、来源核对和人工审核接起来，也会用常见问题检查系统是不是回答得更稳了。
-
-## 运营与团队协作
-
-有些工作本身不复杂，麻烦在资料没齐、审批没走完，或者不知道该交给谁。我在把这些环节整理成流程，让任务状态、责任人和异常情况能看得见。
-
-## 数据分析与决策
-
-我在做广告和经营数据的分析，先把数据清洗和指标口径弄清楚，再做看板、找异常、整理建议。看到一个结果时，我想知道它是怎么算出来的，也想知道接下来能试着改什么。
-
-## 产品与交互体验
-
-浏览器助手、本地工具、语音交互和学习体验，我都有在尝试。通常先和 Agent 做一版，自己从头用一遍。功能能运行以后，还要继续看哪里不顺手、哪里容易让人误解。
-
-## Agent 能力与流程工程
-
-我也在做定制 Agent 和协作工作台，把知识、工具、Skill 组合起来。这里会花不少时间检查执行过程：拿到了什么资料，用了什么工具，哪里需要我来确认，以及出错以后怎么查。
-
-## 方法沉淀与培训
-
-做过的事情，我会把判断过程、失败和修改记下来，再整理成操作指南、课程练习或者 Skill。这样下次碰到类似问题，可以接着做，也方便拿出来和别人讨论。
-
-## 我和 Agent 怎么一起做
-
-通常是我先说明想做什么、为什么要做，让 Agent 帮忙研究和实现，再一起检查结果。有些想法试完会改，有些会暂时放下。每次做完，能留下一个好用的工具，或者搞清楚一个问题，我觉得就有价值。
-
-<details>
-<summary>English · Read the full introduction here</summary>
+**Find the real problem → test what works → keep the know-how → grow the capability.**
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-en.png">
-  <img src="media/work-motion-en.gif" width="1100" alt="Eric’s current work: marketing, sales, brand, support, operations, data, product, agents, and methods. Nine illustrated scenes loop; the full introduction follows below.">
+  <img src="media/work-motion-en.gif" width="1100" alt="Eric’s wider practice: connecting real problems across marketing, sales, brand, support, operations, data, product, agents, and methods.">
 </picture>
 
 <p align="right"><sub><a href="media/work-still-en.png">Still image</a></sub></p>
 
-# What I am building with agents
+## Current focus: one game production loop
 
-I started without knowing how to code. Now I work with AI agents on tools I want to use myself. The work covers marketing, sales, brand, customer support, and data analysis. Much of it starts with a problem I have run into at work.
+Games are where I am testing this approach most visibly right now. Four open-source Skills cover four connected decisions:
 
-I care about whether the result is useful, so I try it myself and keep changing what feels awkward. Along the way, I am learning to explain problems and judge an agent’s work. I keep methods that work in documents and skills so I can use them again.
+| Research | Understand | Plan | Direct |
+|---|---|---|---|
+| Is this direction worth testing? | What is really happening in the game? | What work can a person or agent actually start? | How can many contributors keep one visual direction? |
+| Market evidence, comparisons, gaps | Rules, code, numbers, assets | Inputs, owners, dependencies, acceptance | References, samples, review, versions |
 
-These are the areas I am working on. Some are still prototypes; others are being tried in practice. I leave out project names where clients are involved.
+Each Skill can run on its own. Together they move a team from **where is the opportunity?** to **what is really here?** to **what do we make next?** to **how do many people keep one direction?**
 
-## Marketing and content
+### 01 · [Game Market Intelligence Director](https://github.com/NewenergyEric/game-market-intelligence)
 
-I am connecting audience and competitor research with campaign planning, copy, and video storyboards. The research should help when it is time to make the content. I am also organizing approaches for different channels so they are easier to revise and use again.
+**Read the market. Choose the next move.**
 
-## Sales and partnerships
+It connects audience and genre with IP, regions, channels, culture, payment, competition, and team capacity. Findings keep their source lineage; unavailable data stays unknown; important gaps become concrete research tasks before a team commits.
 
-I use agents to research prospects, creators, and potential partners, including why a conversation might be worth having. I am also working on proposal preparation and follow-up planning so each conversation has useful context behind it.
+<a href="https://github.com/NewenergyEric/game-market-intelligence"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/NewenergyEric/game-market-intelligence/main/assets/readme/hero-en.png?v=profile-20261011">
+  <img src="https://raw.githubusercontent.com/NewenergyEric/game-market-intelligence/main/assets/readme/hero-en.webp?v=profile-20261011" width="100%" alt="Game Market Intelligence Director compares audience, genre, IP, region, payment, competition, and team capacity with evidence.">
+</picture></a>
 
-## Brand and positioning
+[Explore the Skill](https://github.com/NewenergyEric/game-market-intelligence) · [Read the cross-market case](https://github.com/NewenergyEric/game-market-intelligence/tree/main/case-studies/cross-market-entry)
 
-I start with who the product is for and what problem it solves, then look at how competitors describe their products. That informs the positioning, selling points, brand story, and visual guidelines. I want the result to explain the product clearly.
+### 02 · [Game Reverse Analyst](https://github.com/NewenergyEric/game-reverse-analyst)
 
-## Customer support and knowledge
+**Understand the play. Trace the implementation.**
 
-Customer support and knowledge systems are areas I keep working on. When information is scattered, replies can miss things. I am connecting retrieval, reply drafts, source checks, and human review, then using recurring questions to check how well the system answers.
+It follows gameplay questions into observable states, authorized code and data, algorithm boundaries, numeric parameters, and asset families. What can be supported is tied to evidence. What still needs runtime testing or missing material stays open.
 
-## Operations and collaboration
+<a href="https://github.com/NewenergyEric/game-reverse-analyst"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/NewenergyEric/game-reverse-analyst/main/assets/readme/hero-en.png?v=profile-20261011">
+  <img src="https://raw.githubusercontent.com/NewenergyEric/game-reverse-analyst/main/assets/readme/hero-en.webp?v=profile-20261011" width="100%" alt="Game Reverse Analyst follows a gameplay rule into implementation, algorithms, numbers, and asset families.">
+</picture></a>
 
-Some work is straightforward until information is missing, approval is pending, or nobody knows who takes it next. I am organizing these steps into workflows that make the status, owner, and exceptions visible.
+[Explore the Skill](https://github.com/NewenergyEric/game-reverse-analyst) · [Read the open-source 2048 case](https://github.com/NewenergyEric/game-reverse-analyst/tree/main/case-studies/2048-open-source)
 
-## Data and decisions
+### 03 · [Game Production Manager](https://github.com/NewenergyEric/game-production-manager)
 
-I work on advertising and business data, starting with cleanup and consistent metric definitions. Then I build dashboards, investigate unusual results, and prepare suggestions. I want to understand how a result was calculated and what might be worth changing next.
+**Turn the intent into work people can start.**
 
-## Product and interaction
+It turns a loose production goal into a traceable scope, work packages, versioned inputs, owners, dependencies, assets, acceptance cases, and change impact. Missing decisions remain visible, and a plan is never presented as finished production.
 
-I am trying browser assistants, local tools, voice interaction, and learning experiences. Usually I build a first version with agents and use it from beginning to end myself. Once it runs, there is still work to do on the parts that feel awkward or confusing.
+<a href="https://github.com/NewenergyEric/game-production-manager"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/NewenergyEric/game-production-manager/main/assets/readme/hero-en.png?v=profile-20261011">
+  <img src="https://raw.githubusercontent.com/NewenergyEric/game-production-manager/main/assets/readme/hero-en.webp?v=profile-20261011" width="100%" alt="Game Production Manager turns intent, decisions, and feedback into traceable work packages.">
+</picture></a>
 
-## Agent workflows
+[Explore the Skill](https://github.com/NewenergyEric/game-production-manager) · [Open the production case](https://github.com/NewenergyEric/game-production-manager/tree/main/case-studies/community-order)
 
-I am also building custom agents and shared workspaces by combining knowledge, tools, and skills. I spend time checking what material an agent used, which tools it called, when it needs my confirmation, and how to trace an error.
+### 04 · [Art Director](https://github.com/NewenergyEric/art-director-skill)
 
-## Methods and training
+**One team, one visual memory.**
 
-I keep notes on the decisions, failures, and revisions, then turn them into guides, course exercises, or skills. That gives me a place to start when a similar problem comes up, and something concrete to discuss with other people.
+It turns scattered references, rules, samples, and review notes into a project-specific Skill. Directors decide what must stay and what may vary; teammates and their agents create, review, and hand off on the same version across game art, UI systems, campaigns, posters, and other multi-person visual work.
+
+<a href="https://github.com/NewenergyEric/art-director-skill"><picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/NewenergyEric/art-director-skill/main/assets/readme/depth-preview-en.jpg?v=profile-20261011">
+  <img src="https://raw.githubusercontent.com/NewenergyEric/art-director-skill/main/assets/readme/depth-preview-en.gif?v=profile-20261011" width="100%" alt="Art Director turns references, rules, samples, review, and delivery into one shared visual memory.">
+</picture></a>
+
+[Explore the Skill](https://github.com/NewenergyEric/art-director-skill) · [Watch the complete workflow](https://newenergyeric.github.io/art-director-skill/docs/landing.html#film)
+
+## The wider practice
+
+The subject changes, but the method stays recognizable: understand the work, make the judgment explicit, build something usable, and leave the next round better prepared.
+
+| Function | What I am working on |
+|---|---|
+| **Brand & positioning** | Find the real audience, problem, and difference; keep words and visuals around one clear idea. |
+| **Marketing & content** | Carry research into campaign plans, copy, storyboards, and channel-ready assets. |
+| **Sales & partnerships** | Research the other side, prepare a specific reason to talk, and make the next step clear. |
+| **Customer support & knowledge** | Connect scattered knowledge, grounded drafts, source checks, human review, and recurring-question evaluation. |
+| **Operations & collaboration** | Make inputs, owners, approvals, handoffs, and exceptions visible. |
+| **Data & decisions** | Clean the data, agree on definitions, investigate changes, and turn results into testable next actions. |
+| **Product & interaction** | Build practical prototypes, use them myself, and revise the parts that feel awkward or unclear. |
+| **Agent systems** | Combine knowledge, tools, Skills, evaluation, permissions, and execution records. |
+| **Methods & training** | Turn decisions, mistakes, and revisions into guides, exercises, playbooks, and reusable Skills. |
 
 ## How I work with agents
 
-I usually start by explaining what I want to do and why. Agents help with the research and implementation, and we check the result together. Some ideas change after I try them; some get put aside. A useful tool or a better understanding of a problem is a worthwhile result for me.
+1. **Start with the friction.** What is happening in the real work, and why does it matter?
+2. **Make the judgment testable.** What evidence is available? What does a useful result need to do?
+3. **Build a version someone can use.** Then I try the whole flow myself, including handoffs and failure cases.
+4. **Keep what we learned.** Accepted decisions, failed approaches, and review criteria go back into the system.
+
+I do not hand over the judgment. I keep asking where an answer came from, what remains unknown, and whether the result helps someone finish the work.
+
+## What I believe
+
+**Start with the work, not the AI feature.** A real problem gives us something honest to test.
+
+**A usable result is stronger than a convincing demo.** It should survive the full path from input to handoff, including the awkward parts.
+
+**Human judgment sets the direction. Agents help carry it through more steps and more people.**
+
+**Know-how should compound.** If a decision mattered once, it should help the next project begin further ahead.
+
+Four public Skills. Bilingual guides. Runnable cases. Tests, CI, and motion demos.
+
+Made by Eric and Agents.
+
+<details>
+<summary><strong>中文简介</strong></summary>
+
+我从不会写代码开始，现在仍然从同一个地方出发：先找到一个真实、值得解决的问题。
+
+我和 Agent 一起把问题弄清楚，做出能用的第一版，自己从头用一遍，再继续修改。有效的做法不会只留在聊天里，而会变成 Skill、工具、流程或 Playbook，让下一个人和下一个 Agent 能接着成长。
+
+**找到真实问题 → 验证有效方法 → 留下 know-how → 让能力持续成长。**
+
+[查看完整中文版 →](README.zh.md)
 
 </details>

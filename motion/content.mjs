@@ -1,19 +1,19 @@
 export const PROFILE = {
   zh: {
     intro: [
-      '我从不会写代码开始，现在在和 AI Agent 一起做一些自己想用的工具。做的东西比较杂，营销、销售、品牌、客服，还有数据分析，很多都来自实际工作里碰到的问题。',
-      '我比较在意的是，做出来以后到底好不好用。所以会自己试，不顺就继续改。过程中也在学怎么把问题讲清楚，怎么判断 Agent 做得对不对。能用的方法会整理成文档和 Skill，下次接着用。'
+      '我是从不会写代码开始的。直到现在，我还是先找一个自己真的想解决的问题。',
+      '我和 Agent 一起把问题弄清楚、做出能用的版本、自己试用，再把有效的判断和方法整理成可以继续成长的 Skill、工具和流程。'
     ],
-    note: '下面按职能写了我正在做的事情。有些还在做原型，有些已经进入试用。涉及客户的项目就不写名字了。',
-    process: '通常是我先说明想做什么、为什么要做，让 Agent 帮忙研究和实现，再一起检查结果。有些想法试完会改，有些会暂时放下。每次做完，能留下一个好用的工具，或者搞清楚一个问题，我觉得就有价值。'
+    note: '找到真实问题，验证有效方法，留下 know-how，让能力持续成长。',
+    process: '先看清工作和证据，再做出能用的版本。我会自己走完整个流程，把已确认的判断、失败的做法和评审标准写回系统。'
   },
   en: {
     intro: [
-      'I started without knowing how to code. Now I work with AI agents on tools I want to use myself. The work covers marketing, sales, brand, customer support, and data analysis. Much of it starts with a problem I have run into at work.',
-      'I care about whether the result is useful, so I try it myself and keep changing what feels awkward. Along the way, I am learning to explain problems and judge an agent’s work. I keep methods that work in documents and skills so I can use them again.'
+      'I started without knowing how to code. I still begin with a problem I actually want to solve.',
+      'I work with agents to understand it, build something useful, try it myself, and turn what works into Skills, tools, and workflows that can keep improving.'
     ],
-    note: 'These are the areas I am working on. Some are still prototypes; others are being tried in practice. I leave out project names where clients are involved.',
-    process: 'I usually start by explaining what I want to do and why. Agents help with the research and implementation, and we check the result together. Some ideas change after I try them; some get put aside. A useful tool or a better understanding of a problem is a worthwhile result for me.'
+    note: 'Find the real problem, test what works, keep the know-how, and grow the capability.',
+    process: 'I start with the work and the evidence, build a version someone can use, and try the whole flow. Accepted decisions, failed approaches, and review criteria go back into the system.'
   }
 };
 

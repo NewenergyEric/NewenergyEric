@@ -1,8 +1,8 @@
 # Current work, in motion
 
-Nine scenes show the work described in the profile: marketing, sales, brand, support, operations, data, product, agent workflows, and methods. Each scene runs for five seconds. The Chinese and English editions share the same drawings and timing, with localized text throughout.
+Nine scenes show the wider practice described in the profile: marketing, sales, brand, support, operations, data, product, agent workflows, and methods. Each scene runs for five seconds. The Chinese and English editions share the same drawings and timing, with localized text throughout.
 
-The illustrations use a white background, navy outlines, and teal and blue accents. Documents move through a workflow, charts build, prototypes respond, and notes are saved for the next task. All examples are illustrative; they contain no client data or project identities.
+The illustrations use a white background, navy outlines, and teal and blue accents. Documents move through a workflow, charts build, prototypes respond, and notes are saved for the next task. The footer carries the profile's core loop: real problem, useful method, reusable capability.
 
 ## Files
 
@@ -12,7 +12,7 @@ The illustrations use a white background, navy outlines, and teal and blue accen
 - `motion/motion.mjs`: deterministic SVG drawings and animation timing.
 - `render-motion.mjs`: builds both READMEs and the four media files.
 
-Both READMEs include a reduced-motion image source and a direct static-image link. All essential information is also written as ordinary text. The English edition and the collapsed English section on the Chinese page are generated from the same content.
+README.md is the English default, README.en.md mirrors it for compatibility, and README.zh.md is the complete Chinese edition. The English page also carries a short collapsed Chinese introduction. All profile and featured-project animations include reduced-motion sources; essential information is also written as ordinary text.
 
 ## Rebuild
 
