@@ -38,8 +38,10 @@
 <td width="50%" valign="top">
 <a href="https://fde.aielsen.com/zh/"><img src="https://raw.githubusercontent.com/NewenergyEric/enterprise-ai-playbook/main/docs/media/fde-motion-zh.png" width="100%" alt="企业 AI 工作指南：从业务问题、工作流程到成果与方法积累。"></a>
 <p><strong>把 AI 用进每天的工作</strong></p>
-<p>从营销、客服到运营，把工作怎么做、哪里需要判断，整理成指南、案例和练习。可以从眼前的一件事开始看。</p>
+<p>我把企业工作中的输入、判断、交接与验收，整理成六步流程、66 个应用场景和 12 周 FDE 学院。先选一项任务，再用合成练习和案例检查自己的方法；应用场景不是已验证客户数量。</p>
 <a href="https://fde.aielsen.com/zh/playbook/">找一个工作场景 →</a> · <a href="https://github.com/NewenergyEric/enterprise-ai-playbook">查看项目</a>
+<p><a href="https://fde.aielsen.com/academy/zh/">进入 FDE 学院</a> · <a href="https://fde.aielsen.com/agent-cases/">看 Agent 工作案例</a></p>
+<p><sub>源码可见：个人学习、企业内部学习及非生产评估获许可；生产或商业复用须书面授权，第三方材料权利另行保留。<a href="https://github.com/NewenergyEric/enterprise-ai-playbook/blob/main/LICENSING.md">使用边界</a></sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/NewenergyEric/art-director-skill"><img src="https://raw.githubusercontent.com/NewenergyEric/art-director-skill/main/assets/readme/depth-preview-zh.jpg" width="100%" alt="Art Director：把参考、样板和修改意见整理成团队共同的设计依据。"></a>

@@ -38,8 +38,10 @@ These projects often start with a familiar frustration. Here are the questions I
 <td width="50%" valign="top">
 <a href="https://fde.aielsen.com/en/"><img src="https://raw.githubusercontent.com/NewenergyEric/enterprise-ai-playbook/main/docs/media/fde-motion-en.png" width="100%" alt="Enterprise AI Playbook: from business questions and workflows to useful results and reusable methods."></a>
 <p><strong>Bring AI into everyday work</strong></p>
-<p>Guides, cases, and exercises for marketing, support, and operations. Start with a task you recognize and follow the decisions behind it.</p>
+<p>I organized enterprise inputs, decisions, handoffs, and acceptance into a six-step workflow, 66 application scenarios, and a 12-week FDE Academy. Start with one task, then inspect your method through synthetic exercises and cases. The scenarios are not a count of validated customer deployments.</p>
 <a href="https://fde.aielsen.com/en/playbook/">Find a work scenario →</a> · <a href="https://github.com/NewenergyEric/enterprise-ai-playbook">Project</a>
+<p><a href="https://fde.aielsen.com/academy/en/">Start FDE Academy</a> · <a href="https://fde.aielsen.com/agent-cases/en/">Explore Agent work cases</a></p>
+<p><sub>Source-available: personal learning, corporate internal learning, and non-production evaluation are permitted. Production or commercial reuse requires written authorization; third-party rights remain separate. <a href="https://github.com/NewenergyEric/enterprise-ai-playbook/blob/main/LICENSING.md">Usage boundaries</a></sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/NewenergyEric/art-director-skill"><img src="https://raw.githubusercontent.com/NewenergyEric/art-director-skill/main/assets/readme/depth-preview-en.jpg" width="100%" alt="Art Director: shared references, samples, and review notes for a design team."></a>
