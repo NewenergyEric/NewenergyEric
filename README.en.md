@@ -62,7 +62,7 @@ Games are one place I’m trying this approach. The aim is to connect research, 
 | What work can we start, and how will we check it? | [Production planning](https://github.com/NewenergyEric/game-production-manager) |
 | How can different contributors follow the same art direction? | [Art direction](https://github.com/NewenergyEric/art-director-skill) |
 
-Each project has fuller explanations, examples, and visual demos.
+Explore **[Game Dev Skills: four roles, one handoff](GAME-DEV-SKILLS.en.md)** for the entry points, inspectable cases and workflow. Solo creators switch roles; teams carry sources, versions and open decisions forward.
 
 </details>
 
