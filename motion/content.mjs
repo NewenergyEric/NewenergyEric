@@ -1,19 +1,19 @@
 export const PROFILE = {
   zh: {
     intro: [
-      '我是从不会写代码开始的。直到现在，我还是先找一个自己真的想解决的问题。',
-      '我和 Agent 一起把问题弄清楚、做出能用的版本、自己试用，再把有效的判断和方法整理成可以继续成长的 Skill、工具和流程。'
+      '我和 AI Agent 一起做产品、做内容、改进工作流程。最关心的是：**工作里到底哪里卡住了，AI 能不能帮上忙？** 从把一个产品说清楚，到让客服查对资料、让团队少一点反复沟通，都是我正在尝试的事。',
+      '有用的办法，我会把它留下来，变成工具、流程和 Skill——也就是 AI 能照着做的工作方法。这样，人的经验能变成团队和 AI 可以接着用、继续改的能力。'
     ],
-    note: '找到真实问题，验证有效方法，留下 know-how，让能力持续成长。',
-    process: '先看清工作和证据，再做出能用的版本。我会自己走完整个流程，把已确认的判断、失败的做法和评审标准写回系统。'
+    note: '把眼前的问题解决好，也给下一次留下一点积累。',
+    process: '先把一件真实的工作讲清楚：现在怎么做，哪里最费劲，怎样算做好。然后和 Agent 一起试出一个能用的办法，放回实际工作里检验，再继续改。最后，把有效的判断、做法和踩过的坑留下来，变成团队和 AI 能继续使用的方法。'
   },
   en: {
     intro: [
-      'I started without knowing how to code. I still begin with a problem I actually want to solve.',
-      'I work with agents to understand it, build something useful, try it myself, and turn what works into Skills, tools, and workflows that can keep improving.'
+      'I work with AI agents to build products, create content, and improve workflows. I keep coming back to one question: **where is the work getting stuck, and could AI help?** That might mean explaining a product more clearly, finding the right answer for a customer, or helping a team spend less time going back and forth.',
+      'When a method works, I turn it into a tool, a workflow, or a Skill: instructions an agent can follow. That gives people and their agents something useful to carry into the next task and keep improving.'
     ],
-    note: 'Find the real problem, test what works, keep the know-how, and grow the capability.',
-    process: 'I start with the work and the evidence, build a version someone can use, and try the whole flow. Accepted decisions, failed approaches, and review criteria go back into the system.'
+    note: 'Solve the problem in front of us, and leave something useful for the next one.',
+    process: 'First, understand a real task: how it works now, what makes it difficult, and what a good result would look like. Then build a practical approach with an agent, try it in the actual workflow, and revise it. Keep the useful decisions, methods, and mistakes so the team and its agents can use them again.'
   }
 };
 
@@ -74,16 +74,16 @@ export const AREAS = [
   },
   {
     id:'product',short:{zh:'产品',en:'Product'},
-    zh:{name:'产品与交互体验',title:['先做一版，','我自己用用看。'],detail:['试浏览器工具、本地应用和语音。','把使用中不顺的地方继续改。'],output:'浏览器 / 本地工具 / 语音 / 学习体验',
-      body:'浏览器助手、本地工具、语音交互和学习体验，我都有在尝试。通常先和 Agent 做一版，自己从头用一遍。功能能运行以后，还要继续看哪里不顺手、哪里容易让人误解。',
+    zh:{name:'产品与交互体验',title:['把需要的功能，','做成顺手的工具。'],detail:['试浏览器工具、本地应用和语音。','放回实际工作，找到不顺的地方。'],output:'浏览器 / 本地工具 / 语音 / 学习体验',
+      body:'浏览器助手、本地工具、语音交互和学习体验，我都有在尝试。先弄清楚要帮谁完成什么，再和 Agent 做一版，放回实际工作里试，继续修改不顺手或容易误解的地方。',
       labels:['浏览器原型','语音交互','使用记录','开始试用','这个步骤再改改','已记录']},
-    en:{name:'Product and interaction',title:['Make a first version.','Try it myself.'],detail:['Try browser tools, local apps, and voice.','Revise the parts that are awkward to use.'],output:'Browser tools / Local apps / Voice / Learning',
-      body:'I am trying browser assistants, local tools, voice interaction, and learning experiences. Usually I build a first version with agents and use it from beginning to end myself. Once it runs, there is still work to do on the parts that feel awkward or confusing.',
+    en:{name:'Product and interaction',title:['Make the tool','the work needs.'],detail:['Try browser tools, local apps, and voice.','Use them in real work and keep improving.'],output:'Browser tools / Local apps / Voice / Learning',
+      body:'I am trying browser assistants, local tools, voice interaction, and learning experiences. First I work out who needs help with what, then build a version with agents and try it in that workflow. I keep revising the parts that feel awkward or confusing.',
       labels:['Browser prototype','Voice interaction','Usage notes','Try it','Rework this step','Noted']}
   },
   {
     id:'agents',short:{zh:'Agent',en:'Agents'},
-    zh:{name:'Agent 能力与流程工程',title:['哪些交给 Agent，','哪些由我来判断。'],detail:['接入知识、工具和 Skill。','检查执行过程，保留审核和记录。'],output:'知识 / 工具 / Skill / 评测与审核',
+    zh:{name:'Agent 与人的协作',title:['哪些交给 Agent，','哪些由人来判断。'],detail:['接入知识、工具和 Skill。','检查执行过程，保留审核和记录。'],output:'知识 / 工具 / Skill / 检查与审核',
       body:'我也在做定制 Agent 和协作工作台，把知识、工具、Skill 组合起来。这里会花不少时间检查执行过程：拿到了什么资料，用了什么工具，哪里需要我来确认，以及出错以后怎么查。',
       labels:['任务','知识','工具','Skill','评测','人工确认']},
     en:{name:'Agent workflows',title:['Let agents handle it.','Keep my judgment.'],detail:['Connect knowledge, tools, and skills.','Check the work and keep review records.'],output:'Knowledge / Tools / Skills / Evaluation and review',

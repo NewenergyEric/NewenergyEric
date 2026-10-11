@@ -191,7 +191,7 @@ export function renderFrame(lang,time){
  if(!['zh','en'].includes(lang))throw new Error('Expected zh or en');
  const {index,local}=sceneAt(time),a=AREAS[index],c=a[lang],enter=ease(local/.35),exit=ease((local-4.6)/.4),op=1-exit;
  let s=`<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" role="img" aria-label="${esc(c.name+' / '+c.title.join(' '))}"><title>${esc(c.name)}</title><rect width="1100" height="650" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif">`;
- s+=text(42,52,'Eric',30,C.ink,700)+text(123,51,lang==='zh'?'最近在忙这些':'Current work',18,C.muted,400)+text(1058,50,lang==='zh'?'真实问题，方法和能力一起成长':'Real problems. Methods that keep growing.',13,C.teal,700,'end')+line(42,79,1058,79);
+ s+=text(42,52,'Eric',30,C.ink,700)+text(123,51,lang==='zh'?'最近在忙这些':'What I’m working on',18,C.muted,400)+text(1058,50,lang==='zh'?'和 AI 一起，把想法做出来':'Learning by building with AI.',13,C.teal,700,'end')+line(42,79,1058,79);
  s+=text(42,127,`${String(index+1).padStart(2,'0')} / ${c.name}`,15,C.teal,700);
  c.title.forEach((title,i)=>s+=group(text(42,208+i*54,title,lang==='zh'?38:32,C.ink,700),0,15*(1-enter)-13*exit,0,(.5+.5*enter)*op));
  c.detail.forEach((detail,i)=>s+=text(42,338+i*29,detail,lang==='zh'?17:14,C.muted));
@@ -204,6 +204,6 @@ export function renderFrame(lang,time){
   s+=rect(x,549,104,44,active?C.ink:C.paper,2,'none')+text(x+52,567,String(i+1).padStart(2,'0'),10,active?'#76d3d4':C.teal,700,'middle')+text(x+52,585,area.short[lang],lang==='zh'?14:11,active?C.white:C.muted,600,'middle');
   if(active)s+=line(x,599,x+104*local/SCENE_SECONDS,599,C.teal,3);
  });
- s+=text(42,630,lang==='zh'?'从不会写代码开始，边做边学。':'I started without coding and learn by building.',11,C.muted)+text(1058,630,lang==='zh'?'真实问题 → 有效方法 → 可复用能力':'Real problem → useful method → reusable capability',10,C.muted,600,'end');
+ s+=text(42,630,lang==='zh'?'从不会写代码开始，边做边学。':'I started without coding and learn by building.',11,C.muted)+text(1058,630,lang==='zh'?'找到问题 → 试出办法 → 把经验留下来':'Find the problem → try a method → keep what works',10,C.muted,600,'end');
  return s+'</g></svg>';
 }

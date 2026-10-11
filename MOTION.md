@@ -2,17 +2,18 @@
 
 Nine scenes show the wider practice described in the profile: marketing, sales, brand, support, operations, data, product, agent workflows, and methods. Each scene runs for five seconds. The Chinese and English editions share the same drawings and timing, with localized text throughout.
 
-The illustrations use a white background, navy outlines, and teal and blue accents. Documents move through a workflow, charts build, prototypes respond, and notes are saved for the next task. The footer carries the profile's core loop: real problem, useful method, reusable capability.
+The illustrations use a white background, navy outlines, and teal and blue accents. Documents move through a workflow, charts build, prototypes respond, and notes are saved for the next task. The footer carries the profile's core loop in plain language: find the problem, try a method, keep what works.
 
 ## Files
 
 - `media/work-motion-zh.gif` and `media/work-motion-en.gif`: 1100 × 650, 20 frames per second, 900 frames, 45 seconds, looping continuously.
 - `media/work-still-zh.png` and `media/work-still-en.png`: matching static alternatives.
 - `motion/content.mjs`: bilingual scene labels and profile copy.
+- `motion/profile.mjs`: bilingual README layout and project shelf.
 - `motion/motion.mjs`: deterministic SVG drawings and animation timing.
-- `render-motion.mjs`: builds both READMEs and the four media files.
+- `render-motion.mjs`: builds the README editions and the four media files.
 
-README.md is the English default, README.en.md mirrors it for compatibility, and README.zh.md is the complete Chinese edition. The English page also carries a short collapsed Chinese introduction. All profile and featured-project animations include reduced-motion sources; essential information is also written as ordinary text.
+README.md is the Chinese default, README.zh.md mirrors it for existing links, and README.en.md is the complete English edition. The Chinese page also carries a short collapsed English introduction. The profile animation includes a reduced-motion source. The project shelf uses compact static images from Enterprise AI Playbook and Art Director, with links to the full examples and film. The game series stays in a collapsed text section. Essential information is also written as ordinary text.
 
 ## Rebuild
 

@@ -10,8 +10,9 @@ This repository presents a personal learning and building practice through busin
 - Publish only the intended profile files. Keep local research, source-to-project mappings, history backups, and review contact sheets outside this repository.
 - Inspect the current remote state before writing and preserve unrelated work. Do not restore content from older, unsanitized profile copies.
 - Retain reduced-motion sources and static-image alternatives for the profile motion and all featured project motion.
-- Maintain visible language links at the top: English is the profile default in README.md, and Chinese opens README.zh.md.
-- Update Chinese and English together. README.en.md mirrors the English default for compatibility; README.zh.md contains the complete Chinese edition. Keep a short collapsed Chinese introduction on the English page.
+- Maintain visible language links at the top: Chinese is the profile default in README.md, and English opens README.en.md.
+- Update Chinese and English together. README.zh.md mirrors the Chinese default for existing links; README.en.md contains the complete English edition. Keep a short collapsed English introduction on the Chinese page.
 - Use a direct first-person voice, concrete work, and clearly stated judgments. Keep the nine business functions. Do not copy another creator's signature wording, achievements, or identity.
+- Lead with Eric's broader work across business, products, design, and learning. The four game Skills are one compact, collapsed example, not the profile's central identity. Keep project artwork compact and use everyday language before technical terminology.
 
 Confidentiality is the default for future updates; access to project material is not permission to disclose it on the public profile.
