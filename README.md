@@ -62,7 +62,7 @@
 | 把“想做什么”拆成能开工、能检查的任务 | [制作管理](https://github.com/NewenergyEric/game-production-manager) |
 | 多人做出的素材，沿用同一套美术规范 | [美术指导](https://github.com/NewenergyEric/art-director-skill) |
 
-每个项目里都有更完整的说明、案例和图文演示。
+我把四个入口、真实案例和交接关系整理成了 **[Game Dev Skills · 四岗位总览](GAME-DEV-SKILLS.md)**。个人按当前问题切换岗位；团队带着来源、版本与未定项交接。
 
 </details>
 
