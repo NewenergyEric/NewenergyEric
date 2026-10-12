@@ -13,6 +13,7 @@ This repository presents a personal learning and building practice through busin
 - Maintain visible language links at the top: Chinese is the profile default in README.md, and English opens README.en.md.
 - Update Chinese and English together. README.zh.md mirrors the Chinese default for existing links; README.en.md contains the complete English edition. Keep a short collapsed English introduction on the Chinese page.
 - Use a direct first-person voice, concrete work, and clearly stated judgments. Keep the nine business functions. Do not copy another creator's signature wording, achievements, or identity.
+- Write like Eric talking about what he has been making. Prefer his supplied stories, ordinary words, and specific observations to positioning statements, slogans, or repeated lessons about exploration and shared knowledge. Keep English conversational too. Do not invent personal incidents or add slang just to sound informal.
 - Lead with Eric's ongoing exploration with AI across business, products, design, and learning. FDE and visual memory are examples from that exploration, not two defining tracks or the full scope of his work. The four game Skills are one compact, collapsed example. Keep project artwork compact and use everyday language before technical terminology.
 
 Confidentiality is the default for future updates; access to project material is not permission to disclose it on the public profile.

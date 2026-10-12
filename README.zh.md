@@ -2,13 +2,11 @@
 
 # 你好，我是 Eric 👋
 
-**我还在和 AI 一起探索。**
+我刚开始和 AI 做东西的时候，还不会写代码。想做的东西倒是不少。
 
-我从不会写代码开始，带着想法和 AI 一起试，边做边学。做一个产品、写一段内容、研究一个问题，或者看看一件麻烦的工作有没有别的做法。
+现在这个 GitHub 里，就放着我们一起折腾出来的一些东西。有产品，有内容，有工作里用得上的工具，也有游戏相关的尝试。兴趣有点杂，做出来的东西也跟着杂。
 
-这些问题把我带到不同的地方：业务、设计、数据、产品，还有 Agent 之间的协作。做出一点东西，就回头看看学到了什么，再带着新的好奇继续试。
-
-这里记录的是这个还在继续的过程。项目是沿途做出来的东西，故事是其中一些让我记住的人和事。
+还在继续。接下来会做出什么，我也好奇。
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-zh.png">
@@ -18,41 +16,39 @@
 <p align="right"><sub><a href="media/work-still-zh.png">查看静态图</a></sub></p>
 
 <details>
-<summary><strong>展开看看：我在这些工作里尝试什么</strong></summary>
+<summary><strong>具体都在做些什么？（展开）</strong></summary>
 
-| 方向 | 我想把这些事做得更顺 |
+| 方向 | 最近在试的东西 |
 |---|---|
-| **营销与内容** | 从了解人群、研究竞品，到活动方案、文案、图片和视频分镜，让前面做过的研究在后面派上用场。 |
-| **销售与合作** | 先了解客户和伙伴，再准备提案、沟通重点与跟进安排，让每一次联系都有具体的理由。 |
-| **品牌与定位** | 把“给谁用、解决什么、为什么选你”说清楚，再一起做文案和视觉。 |
-| **客服与知识** | 把散落的资料找齐，帮同事准备有依据的答复；改对过的问题，下次能记住。 |
-| **运营与协作** | 这件事到哪了，还缺什么，该交给谁？让这些答案在流程里找得到。 |
-| **数据与决策** | 先把数字的来龙去脉弄清楚，再看变化、找原因，决定下一步试什么。 |
-| **产品与交互** | 把需求做成能用的工具，也在尝试浏览器助手、本地应用、语音和学习体验。 |
-| **Agent 协作** | 让 AI 找得到资料、用得上工具、接得住任务，需要判断的地方有人把关。 |
-| **方法与学习** | 把做成的方法和踩过的坑整理成指南、练习与 Skill，让下一次、下一个人能接着用。 |
+| **营销与内容** | 研究谁会对这东西感兴趣，再试着把文案、图片、视频做出来。 |
+| **销售与合作** | 了解要合作的人，准备提案，也把后面要跟进的事记清楚。 |
+| **品牌与定位** | 一起琢磨：这是给谁的，为什么要用，怎么讲别人才能听懂。 |
+| **客服与知识** | 找资料、核对答案。哪次答错了，就把正确的留下，免得下次再错。 |
+| **运营与协作** | 把进度、卡住的地方和下一步要做的事，放到大家找得到的地方。 |
+| **数据与决策** | 看数字，也查数字怎么来的；碰到变化，试着找找原因。 |
+| **产品与交互** | 把想法做成能点、能用的东西，也试浏览器助手、本地应用、语音和学习体验。 |
+| **Agent 协作** | 试着让 Agent 找资料、用工具、接着干活，也弄清楚什么时候该叫人来看。 |
+| **方法与学习** | 把做法、笔记和踩过的坑整理一下，省得下次从头再来。 |
 
 </details>
 
-## 探索途中的一些故事
+## 聊聊其中的几个项目
 
-### 在企业项目里，发现更多需要一起做的事
+### 把 Agent 用进公司之后
 
-探索 Agent 的过程中，我参与了多家公司的项目，不断尝试、复盘。做得越多，我越发现，一项工作能不能做好，牵涉到很多人手里的经验。
+我用 Agent 试了挺长时间，也参与了几家公司的项目。做下来，越来越觉得，企业里用 AI 是一件需要很多人一起干的事。
 
-有人懂业务，有人熟悉资料和系统，有人知道哪里最容易出错，也有人要拿着结果继续往下做。把 Agent 放进来，这些事情仍然要一件件讲清楚、接起来。
+业务上到底要什么，资料能不能用，结果交给谁，谁来判断它做对了没有。这些事得找具体的人聊，常常还不止一个。
 
-在这些项目里，我逐渐把注意力放到具体的连接上：任务从哪里开始，谁来判断做得对不对，结果怎么交给下一个人，下一次又能沿用什么。这也是我做 FDE（Forward Deployed Engineer）时关心的事：走进具体问题，和不同岗位的人一起把它们理顺。
+这也是我做 FDE（Forward Deployed Engineer）时反复琢磨的事。后来把不同项目里的想法和做法放到一起，慢慢有了 [Enterprise AI Playbook](https://github.com/NewenergyEric/enterprise-ai-playbook)。
 
-这也是 [Enterprise AI Playbook](https://github.com/NewenergyEric/enterprise-ai-playbook) 的来处。我把跨项目总结的方法整理成场景、流程和练习，希望后来的人能从已有的经验往前走。
-
-越往下做，我越确定，这是一项需要更多人参与的系统工程。我还在探索，也想找到愿意一起试、一起把经验留下来的人。
+整理到现在，我更想找人一起补。你做的岗位、见过的问题，可能正好是我还没想过的。
 
 ### 我和一个美术总监朋友的故事
 
-他是我认识的人里，最像“艺术家”的那一类。
+他是我认识的人里，最像“艺术家”的那类人。
 
-和他聊游戏，会聊到一群人怎么通过一个作品跟彼此说话，聊到那个很微妙的“感觉”。他很在意这些。
+做游戏这行，很多人聊管线、工具、效率。他聊的是，一群人怎么通过一个作品跟彼此说话。他在意那个很微妙的“感觉”。
 
 有段时间，我们常约饭、喝咖啡。他反复抱怨同一件事：又花了一整天解释“我们想要的是什么”。新来的队友要讲，外包要讲，越来越听话、却没什么主见的 AI 也要讲。
 
@@ -62,15 +58,17 @@
 
 他还担心，一旦做游戏只剩下流程、参数和清单，作品里的艺术性、游戏性，那种好玩，就会慢慢没了。
 
-这句话我记了很久。作为游戏爱好者，我明白他在意什么。作为 FDE，我开始想，他脑子里的判断，能不能让别人接着用？他的品味很好，只是那些判断还留在他的脑子里，留在每次重新解释的几分钟里。
+我也爱玩游戏，听到这里挺有感触。但那句“每次都要从头讲”，又让我开始琢磨另一件事：他脑子里那些判断，能不能留下来？
 
-后来，我们又聊了几轮、做了几场访谈，把参考、样板、什么能改、什么不能改，一点点整理出来，变成团队和 AI 都能接着用的东西。设计和审美仍然由他决定，但他的“感觉”，终于有了一个可以传递的载体。
+所以我们又聊了几轮、做了几场访谈，把参考、样板、什么能改、什么不能改，一点点整理出来，让团队和 AI 都有东西可以接着做。
 
-再后来，他真的用起来了。
+设计和审美还是他的事。我们做的，是让这些判断有地方可查，不用全靠他每次重新开口。
+
+后来，他真的用起来了。
 
 这就是我做 [Art Director](https://github.com/NewenergyEric/art-director-skill) 这份“视觉记忆”的原因：**让艺术家的感性，不被工程吞掉。**
 
-## 一些可以动手试的项目
+## 想试试的话，东西在这里
 
 下面是部分项目的入口，也欢迎[翻翻其他项目](https://github.com/NewenergyEric?tab=repositories)，看看我还在折腾什么。
 
@@ -78,16 +76,16 @@
 <tr>
 <td width="50%" valign="top">
 <a href="https://fde.aielsen.com/zh/"><img src="https://raw.githubusercontent.com/NewenergyEric/enterprise-ai-playbook/main/docs/media/fde-motion-zh.png" width="100%" alt="企业 AI 工作指南：从业务问题、工作流程到成果与方法积累。"></a>
-<p><strong>把 AI 用进每天的工作</strong></p>
-<p>我把企业工作中的输入、判断、交接与验收，整理成六步流程、66 个应用场景和 12 周 FDE 学院。先选一项任务，再用合成练习和案例检查自己的方法；应用场景不是已验证客户数量。</p>
+<p><strong>Enterprise AI Playbook</strong></p>
+<p>我把项目中的做法整理成一份指南，里面有工作场景、流程、合成练习和案例。可以挑一件你正在做的工作，看看哪些地方用得上。</p>
 <a href="https://fde.aielsen.com/zh/playbook/">找一个工作场景 →</a> · <a href="https://github.com/NewenergyEric/enterprise-ai-playbook">查看项目</a>
 <p><a href="https://fde.aielsen.com/academy/zh/">进入 FDE 学院</a> · <a href="https://fde.aielsen.com/agent-cases/">看 Agent 工作案例</a></p>
 <p><sub>源码可见：个人学习、企业内部学习及非生产评估获许可；生产或商业复用须书面授权，第三方材料权利另行保留。<a href="https://github.com/NewenergyEric/enterprise-ai-playbook/blob/main/LICENSING.md">使用边界</a></sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/NewenergyEric/art-director-skill"><img src="https://raw.githubusercontent.com/NewenergyEric/art-director-skill/main/assets/readme/depth-preview-zh.jpg" width="100%" alt="Art Director：把参考、样板和修改意见整理成团队共同的设计依据。"></a>
-<p><strong>给创作者一份可以传下去的视觉记忆</strong></p>
-<p>从那位朋友的反复解释开始，我把参考、样板和修改意见整理成团队与 AI 可以接着用的设计依据。你可以看看它在游戏美术之外，怎样用于一组活动设计。</p>
+<p><strong>Art Director</strong></p>
+<p>参考图、样板、修改意见，都可以放进这份“视觉记忆”里，让团队和 AI 接着用。下面有一组活动设计的例子，可以直接看它怎么工作。</p>
 <a href="https://github.com/NewenergyEric/art-director-skill/tree/main/examples/campaign-studio-draft">看活动设计案例 →</a> · <a href="https://newenergyeric.github.io/art-director-skill/docs/landing.html#film">看短片</a>
 </td>
 </tr>
@@ -96,7 +94,7 @@
 <details>
 <summary><strong>最近的一个实验：用四套 Skill 接起游戏开发（展开看项目）</strong></summary>
 
-游戏是其中一个实践场景。我在尝试把研究、分析、制作安排和美术协作接起来，让个人创作者和团队都知道下一步怎么做。
+游戏这边，我还在试着把研究、分析、制作安排和美术整理成四套 Skill。可以按眼前的问题，选一个看看。
 
 | 要解决的事 | 项目入口 |
 |---|---|
@@ -105,27 +103,27 @@
 | 把“想做什么”拆成能开工、能检查的任务 | [制作管理](https://github.com/NewenergyEric/game-production-manager) |
 | 多人做出的素材，沿用同一套美术规范 | [美术指导](https://github.com/NewenergyEric/art-director-skill) |
 
-我把四个入口、真实案例和交接关系整理成了 **[Game Dev Skills · 四岗位总览](GAME-DEV-SKILLS.md)**。个人按当前问题切换岗位；团队带着来源、版本与未定项交接。
+四个入口和案例放在 **[Game Dev Skills · 四岗位总览](GAME-DEV-SKILLS.md)** 里。先找你现在卡住的那一步看就好。
 
 </details>
 
-## 继续探索，也欢迎同行
+## 先写到这儿
 
-下一件事可能来自工作里的一个麻烦，也可能只是一个让我好奇的念头。我会继续和 AI 一起试，把过程和有用的东西留在这里。
+上面这些，是我在做的一部分。我还会和 AI 继续做东西，做出来了再慢慢往这里添。
 
-如果你也在探索，欢迎带着一个问题、一个想法，或者一次没做成的尝试来交流。我们可以从那里开始。
+如果你也在和 AI 做东西，我挺想听听你最近在忙什么。顺利的可以聊，卡住的也可以。
 
 [看看我在做的项目 →](https://github.com/NewenergyEric?tab=repositories) · [找一个工作场景 →](https://fde.aielsen.com/zh/playbook/)
 
 <details>
 <summary>English · a short introduction</summary>
 
-I’m still exploring with AI. I started without knowing how to code, and I’ve been learning by making products, creating content, researching questions, and trying different ways to get work done.
+I didn’t know how to code when I started making things with AI. I did have plenty of things I wanted to try.
 
-My curiosity takes me across business, design, data, and agent collaboration. This page collects some projects and stories from that ongoing exploration. I’m interested in what I’ll learn and make next, and in meeting people who are exploring too.
+Some of them are here: products, content, tools for work, and game projects. It’s a bit of a mix. So are my interests. I’m still at it, and I’m curious to see what ends up here next.
 
 [Read the full English profile →](README.en.md)
 
 </details>
 
-<sub>由 Eric 和 Agents 一起做出来，也一起继续学。</sub>
+<sub>这个主页也是和 AI 一起做的。</sub>
