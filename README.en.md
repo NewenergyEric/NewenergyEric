@@ -2,21 +2,53 @@
 
 # Hi, I’m Eric 👋
 
-I started without knowing how to code, learning to build products, create content, and improve workflows with AI agents. I work as an FDE (Forward Deployed Engineer), helping teams use AI in their everyday work. I’m also a gamer, curious about what gives a game its particular feel.
+**Still exploring with AI.**
 
-## The more I work with agents, the more people matter
+I started without knowing how to code. I had ideas I wanted to try, so I began making things with AI and learning as I went: a product, a piece of content, a question to research, or a different way to tackle a frustrating task.
 
-I’ve spent a long time exploring agents, trying things out and learning from projects at several companies. The more work I did, the more I noticed how much depended on knowledge held by different people.
+Those questions take me across business, design, data, products, and agent collaboration. I make something, look back at what I learned, and follow the next thing that makes me curious.
+
+This page is a record of that ongoing exploration. The projects are things I’ve made along the way; the stories are about some of the people and experiences that have stayed with me.
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-en.png">
+  <img src="media/work-motion-en.gif" width="1100" alt="Work I do with AI: marketing, sales, brand, support, operations, data, products, agents, and shared methods.">
+</picture>
+
+<p align="right"><sub><a href="media/work-still-en.png">View the still image</a></sub></p>
+
+<details>
+<summary><strong>A closer look at what I’m trying across these areas</strong></summary>
+
+| Area | The work I’m trying to make easier |
+|---|---|
+| **Marketing & content** | Carry audience research into a campaign, copy, visuals, and video storyboards. Keep what we learned useful through each revision. |
+| **Sales & partnerships** | Understand a prospect or partner, prepare a relevant proposal, and keep the next conversation clear. |
+| **Brand & positioning** | Explain who a product helps and why someone would choose it. Bring that idea into its words and visuals. |
+| **Support & knowledge** | Find the right information, draft a useful reply, and keep corrections so the next answer improves. |
+| **Operations & teamwork** | Make it clear what’s ready, what’s stuck, and who takes the next step. |
+| **Data & decisions** | Check how the numbers were calculated, investigate changes, and work out what to try next. |
+| **Products & interaction** | Turn a need into a usable tool, from browser helpers and local apps to voice and learning experiences. |
+| **Agent collaboration** | Help AI find the right material and use tools to finish a task, with people making the decisions that need judgment. |
+| **Methods & learning** | Turn useful experience and mistakes into guides, exercises, and Skills that others can build on. |
+
+</details>
+
+## Some stories from along the way
+
+### Learning how much enterprise projects depend on people
+
+As I explored agents, I worked on projects at several companies, trying things out and learning from each. The more work I did, the more I noticed how much depended on knowledge held by different people.
 
 Someone understands the business. Someone knows the data and systems. Someone knows where things tend to go wrong. And someone has to take the result and do the next piece of work. Bringing in an agent means working through all of that together.
 
-I began paying more attention to the connections: where a task starts, who can judge whether it’s been done well, how the result reaches the next person, and what we can use again. That’s what FDE work means to me: getting into those details with the people doing the work, and making them easier to handle.
+In those projects, I began paying more attention to the connections: where a task starts, who can judge whether it’s been done well, how the result reaches the next person, and what we can use again. That’s what I focus on in my FDE (Forward Deployed Engineer) work: getting into those details with the people doing the work, and making them easier to handle.
 
 [Enterprise AI Playbook](https://github.com/NewenergyEric/enterprise-ai-playbook) grew out of that process. I’m turning lessons from different projects into scenarios, workflows, and exercises, so the next person has something to build on.
 
 I’ve come to see enterprise AI as a job of connecting a whole system: people, knowledge, tools, and the work between them. It needs more people taking part. I’m still learning, and I’d like to find others who want to keep exploring it with me.
 
-## My art director friend
+### My art director friend
 
 I have an art director friend who’s an artist through and through.
 
@@ -38,7 +70,9 @@ He uses it now.
 
 That’s why I built [Art Director](https://github.com/NewenergyEric/art-director-skill) as a “visual memory”: **to help keep an artist’s sensibility from getting lost in the engineering.**
 
-## Projects you can try
+## A few projects you can try
+
+Here are some places to start. You can also [browse the other projects](https://github.com/NewenergyEric?tab=repositories) to see what else I’m trying.
 
 <table>
 <tr>
@@ -75,37 +109,11 @@ Explore **[Game Dev Skills: four roles, one handoff](GAME-DEV-SKILLS.en.md)** fo
 
 </details>
 
-## Where I’m still experimenting
+## Still exploring, and glad to have company
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-en.png">
-  <img src="media/work-motion-en.gif" width="1100" alt="Work I do with AI: marketing, sales, brand, support, operations, data, products, agents, and shared methods.">
-</picture>
+The next thing might come from a frustrating task at work, or simply from something I’m curious about. I’ll keep trying things with AI and sharing the process and what turns out to be useful here.
 
-<p align="right"><sub><a href="media/work-still-en.png">View the still image</a></sub></p>
-
-<details>
-<summary><strong>Nine areas of work, and what I’m trying in each</strong></summary>
-
-| Area | The work I’m trying to make easier |
-|---|---|
-| **Marketing & content** | Carry audience research into a campaign, copy, visuals, and video storyboards. Keep what we learned useful through each revision. |
-| **Sales & partnerships** | Understand a prospect or partner, prepare a relevant proposal, and keep the next conversation clear. |
-| **Brand & positioning** | Explain who a product helps and why someone would choose it. Bring that idea into its words and visuals. |
-| **Support & knowledge** | Find the right information, draft a useful reply, and keep corrections so the next answer improves. |
-| **Operations & teamwork** | Make it clear what’s ready, what’s stuck, and who takes the next step. |
-| **Data & decisions** | Check how the numbers were calculated, investigate changes, and work out what to try next. |
-| **Products & interaction** | Turn a need into a usable tool, from browser helpers and local apps to voice and learning experiences. |
-| **Agent collaboration** | Help AI find the right material and use tools to finish a task, with people making the decisions that need judgment. |
-| **Methods & learning** | Turn useful experience and mistakes into guides, exercises, and Skills that others can build on. |
-
-</details>
-
-## Tell me about what you’re working on
-
-I want to keep finding ways for people’s judgment and experience to stay useful in their work, and for the next person to have something to build on.
-
-If you’re putting agents to work, or you have a way of doing things that you’re tired of explaining from scratch, I’d like to hear your story. We can start with one concrete problem and see what we can make together.
+If you’re exploring too, bring a question, an idea, or something you tried that didn’t work out. I’d be glad to compare notes and see where it takes us.
 
 [Browse the projects →](https://github.com/NewenergyEric?tab=repositories) · [Explore the work guides →](https://fde.aielsen.com/en/)
 

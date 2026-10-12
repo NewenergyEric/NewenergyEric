@@ -2,21 +2,53 @@
 
 # 你好，我是 Eric 👋
 
-我从不会写代码开始，和 Agent 一起做产品、做内容、改进工作流程，边做边学。我做 FDE（Forward Deployed Engineer），把 AI 接进企业的实际工作；也是个游戏爱好者，关心一个作品的“感觉”从哪里来。
+**我还在和 AI 一起探索。**
 
-## 用 Agent 越久，我越觉得这件事需要更多人
+我从不会写代码开始，带着想法和 AI 一起试，边做边学。做一个产品、写一段内容、研究一个问题，或者看看一件麻烦的工作有没有别的做法。
 
-我花了很长时间探索 Agent，也在多家公司的项目里不断尝试、复盘。做得越多，我越发现，一项工作能不能做好，牵涉到很多人手里的经验。
+这些问题把我带到不同的地方：业务、设计、数据、产品，还有 Agent 之间的协作。做出一点东西，就回头看看学到了什么，再带着新的好奇继续试。
+
+这里记录的是这个还在继续的过程。项目是沿途做出来的东西，故事是其中一些让我记住的人和事。
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-zh.png">
+  <img src="media/work-motion-zh.gif" width="1100" alt="我和 AI 一起做的九类工作：营销、销售、品牌、客服、运营、数据、产品、Agent 和方法整理。">
+</picture>
+
+<p align="right"><sub><a href="media/work-still-zh.png">查看静态图</a></sub></p>
+
+<details>
+<summary><strong>展开看看：我在这些工作里尝试什么</strong></summary>
+
+| 方向 | 我想把这些事做得更顺 |
+|---|---|
+| **营销与内容** | 从了解人群、研究竞品，到活动方案、文案、图片和视频分镜，让前面做过的研究在后面派上用场。 |
+| **销售与合作** | 先了解客户和伙伴，再准备提案、沟通重点与跟进安排，让每一次联系都有具体的理由。 |
+| **品牌与定位** | 把“给谁用、解决什么、为什么选你”说清楚，再一起做文案和视觉。 |
+| **客服与知识** | 把散落的资料找齐，帮同事准备有依据的答复；改对过的问题，下次能记住。 |
+| **运营与协作** | 这件事到哪了，还缺什么，该交给谁？让这些答案在流程里找得到。 |
+| **数据与决策** | 先把数字的来龙去脉弄清楚，再看变化、找原因，决定下一步试什么。 |
+| **产品与交互** | 把需求做成能用的工具，也在尝试浏览器助手、本地应用、语音和学习体验。 |
+| **Agent 协作** | 让 AI 找得到资料、用得上工具、接得住任务，需要判断的地方有人把关。 |
+| **方法与学习** | 把做成的方法和踩过的坑整理成指南、练习与 Skill，让下一次、下一个人能接着用。 |
+
+</details>
+
+## 探索途中的一些故事
+
+### 在企业项目里，发现更多需要一起做的事
+
+探索 Agent 的过程中，我参与了多家公司的项目，不断尝试、复盘。做得越多，我越发现，一项工作能不能做好，牵涉到很多人手里的经验。
 
 有人懂业务，有人熟悉资料和系统，有人知道哪里最容易出错，也有人要拿着结果继续往下做。把 Agent 放进来，这些事情仍然要一件件讲清楚、接起来。
 
-我逐渐把注意力放到这些连接上：任务从哪里开始，谁来判断做得对不对，结果怎么交给下一个人，下一次又能沿用什么。FDE 对我来说，就是走进这些具体问题里，和不同岗位的人一起把它们理顺。
+在这些项目里，我逐渐把注意力放到具体的连接上：任务从哪里开始，谁来判断做得对不对，结果怎么交给下一个人，下一次又能沿用什么。这也是我做 FDE（Forward Deployed Engineer）时关心的事：走进具体问题，和不同岗位的人一起把它们理顺。
 
 这也是 [Enterprise AI Playbook](https://github.com/NewenergyEric/enterprise-ai-playbook) 的来处。我把跨项目总结的方法整理成场景、流程和练习，希望后来的人能从已有的经验往前走。
 
 越往下做，我越确定，这是一项需要更多人参与的系统工程。我还在探索，也想找到愿意一起试、一起把经验留下来的人。
 
-## 我和一个美术总监朋友的故事
+### 我和一个美术总监朋友的故事
 
 他是我认识的人里，最像“艺术家”的那一类。
 
@@ -38,7 +70,9 @@
 
 这就是我做 [Art Director](https://github.com/NewenergyEric/art-director-skill) 这份“视觉记忆”的原因：**让艺术家的感性，不被工程吞掉。**
 
-## 可以动手试的项目
+## 一些可以动手试的项目
+
+下面是部分项目的入口，也欢迎[翻翻其他项目](https://github.com/NewenergyEric?tab=repositories)，看看我还在折腾什么。
 
 <table>
 <tr>
@@ -75,46 +109,20 @@
 
 </details>
 
-## 我还在这些工作里继续试
+## 继续探索，也欢迎同行
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-zh.png">
-  <img src="media/work-motion-zh.gif" width="1100" alt="我和 AI 一起做的九类工作：营销、销售、品牌、客服、运营、数据、产品、Agent 和方法整理。">
-</picture>
+下一件事可能来自工作里的一个麻烦，也可能只是一个让我好奇的念头。我会继续和 AI 一起试，把过程和有用的东西留在这里。
 
-<p align="right"><sub><a href="media/work-still-zh.png">查看静态图</a></sub></p>
-
-<details>
-<summary><strong>九类工作里，我具体在尝试什么（展开）</strong></summary>
-
-| 方向 | 我想把这些事做得更顺 |
-|---|---|
-| **营销与内容** | 从了解人群、研究竞品，到活动方案、文案、图片和视频分镜，让前面做过的研究在后面派上用场。 |
-| **销售与合作** | 先了解客户和伙伴，再准备提案、沟通重点与跟进安排，让每一次联系都有具体的理由。 |
-| **品牌与定位** | 把“给谁用、解决什么、为什么选你”说清楚，再一起做文案和视觉。 |
-| **客服与知识** | 把散落的资料找齐，帮同事准备有依据的答复；改对过的问题，下次能记住。 |
-| **运营与协作** | 这件事到哪了，还缺什么，该交给谁？让这些答案在流程里找得到。 |
-| **数据与决策** | 先把数字的来龙去脉弄清楚，再看变化、找原因，决定下一步试什么。 |
-| **产品与交互** | 把需求做成能用的工具，也在尝试浏览器助手、本地应用、语音和学习体验。 |
-| **Agent 协作** | 让 AI 找得到资料、用得上工具、接得住任务，需要判断的地方有人把关。 |
-| **方法与学习** | 把做成的方法和踩过的坑整理成指南、练习与 Skill，让下一次、下一个人能接着用。 |
-
-</details>
-
-## 从你正在做的事聊起
-
-我想继续做的，是把人的判断和经验留在工作里，让后来的人有东西可以接着用。
-
-如果你也在把 Agent 用进实际工作，或者脑子里有一套总要反复解释的经验，我很愿意听听你的故事。我们可以从一件具体的事开始，一起试着把它做好。
+如果你也在探索，欢迎带着一个问题、一个想法，或者一次没做成的尝试来交流。我们可以从那里开始。
 
 [看看我在做的项目 →](https://github.com/NewenergyEric?tab=repositories) · [找一个工作场景 →](https://fde.aielsen.com/zh/playbook/)
 
 <details>
 <summary>English · a short introduction</summary>
 
-I learned to build with AI agents, starting without knowing how to code. Working on projects at several companies taught me how much enterprise AI depends on people bringing their knowledge together. I’m turning what I learn into Enterprise AI Playbook, and looking for people to keep exploring it with.
+I’m still exploring with AI. I started without knowing how to code, and I’ve been learning by making products, creating content, researching questions, and trying different ways to get work done.
 
-An art director friend gave me another reason to build. He was tired of explaining the same creative decisions with every revision. Our conversations became Art Director, a “visual memory” for his team and their agents. He uses it now.
+My curiosity takes me across business, design, data, and agent collaboration. This page collects some projects and stories from that ongoing exploration. I’m interested in what I’ll learn and make next, and in meeting people who are exploring too.
 
 [Read the full English profile →](README.en.md)
 
