@@ -2,36 +2,43 @@
 
 # Hi, I’m Eric 👋
 
-**I started without knowing how to code. Now I’m learning by building with AI.**
+I started without knowing how to code, learning to build products, create content, and improve workflows with AI agents. I work as an FDE (Forward Deployed Engineer), helping teams use AI in their everyday work. I’m also a gamer, curious about what gives a game its particular feel.
 
-I work with AI agents to build products, create content, and improve workflows. I keep coming back to one question: **where is the work getting stuck, and could AI help?** That might mean explaining a product more clearly, finding the right answer for a customer, or helping a team spend less time going back and forth.
+## The more I work with agents, the more people matter
 
-When a method works, I turn it into a tool, a workflow, or a Skill: instructions an agent can follow. That gives people and their agents something useful to carry into the next task and keep improving.
+I’ve spent a long time exploring agents, trying things out and learning from projects at several companies. The more work I did, the more I noticed how much depended on knowledge held by different people.
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-en.png">
-  <img src="media/work-motion-en.gif" width="1100" alt="Work I do with AI: marketing, sales, brand, support, operations, data, products, agents, and shared methods.">
-</picture>
+Someone understands the business. Someone knows the data and systems. Someone knows where things tend to go wrong. And someone has to take the result and do the next piece of work. Bringing in an agent means working through all of that together.
 
-<p align="right"><sub><a href="media/work-still-en.png">View the still image</a></sub></p>
+I began paying more attention to the connections: where a task starts, who can judge whether it’s been done well, how the result reaches the next person, and what we can use again. That’s what FDE work means to me: getting into those details with the people doing the work, and making them easier to handle.
 
-## What I’m working on
+[Enterprise AI Playbook](https://github.com/NewenergyEric/enterprise-ai-playbook) grew out of that process. I’m turning lessons from different projects into scenarios, workflows, and exercises, so the next person has something to build on.
 
-These projects often start with a familiar frustration. Here are the questions I’m working through:
+I’ve come to see enterprise AI as a job of connecting a whole system: people, knowledge, tools, and the work between them. It needs more people taking part. I’m still learning, and I’d like to find others who want to keep exploring it with me.
 
-| Area | The work I’m trying to make easier |
-|---|---|
-| **Marketing & content** | Carry audience research into a campaign, copy, visuals, and video storyboards. Keep what we learned useful through each revision. |
-| **Sales & partnerships** | Understand a prospect or partner, prepare a relevant proposal, and keep the next conversation clear. |
-| **Brand & positioning** | Explain who a product helps and why someone would choose it. Bring that idea into its words and visuals. |
-| **Support & knowledge** | Find the right information, draft a useful reply, and keep corrections so the next answer improves. |
-| **Operations & teamwork** | Make it clear what’s ready, what’s stuck, and who takes the next step. |
-| **Data & decisions** | Check how the numbers were calculated, investigate changes, and work out what to try next. |
-| **Products & interaction** | Turn a need into a usable tool, from browser helpers and local apps to voice and learning experiences. |
-| **Agent collaboration** | Help AI find the right material and use tools to finish a task, with people making the decisions that need judgment. |
-| **Methods & learning** | Turn useful experience and mistakes into guides, exercises, and Skills that others can build on. |
+## My art director friend
 
-## A few things you can explore
+I have an art director friend who’s an artist through and through.
+
+Talk to him about games, and he’ll talk about how a group of people can speak to each other through something they make. He cares about that elusive sense of how a game should feel.
+
+For a while, we often met for meals or coffee. The same frustration kept coming up: he’d spent another whole day explaining what they were trying to make. To a new teammate. To an outsourcing partner. To AI that was increasingly willing to follow instructions, but had little judgment of its own.
+
+I asked which part frustrated him most. He thought for a moment.
+
+> It’s not that they do bad work. It’s that I have to explain it all from the beginning. We finish one version, and with the next, I start over.
+
+He also worried about what happens when making a game becomes a matter of processes, parameters, and checklists. The art, the play, the fun can slip away.
+
+I kept thinking about that conversation. As a gamer, I understood what he cared about. As an FDE, I wondered how other people could build on his judgment. He had good taste, but the reasoning behind it lived in his head, and in those few minutes when he explained it all over again.
+
+So we kept talking. Through more conversations and interviews, we drew out the references, examples, and boundaries behind his choices: what could change, and what had to stay. We gave those judgments a form his teammates and their agents could return to. The creative decisions were still his. Now the feeling he cared about had a record other people could work from.
+
+He uses it now.
+
+That’s why I built [Art Director](https://github.com/NewenergyEric/art-director-skill) as a “visual memory”: **to help keep an artist’s sensibility from getting lost in the engineering.**
+
+## Projects you can try
 
 <table>
 <tr>
@@ -45,8 +52,8 @@ These projects often start with a familiar frustration. Here are the questions I
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/NewenergyEric/art-director-skill"><img src="https://raw.githubusercontent.com/NewenergyEric/art-director-skill/main/assets/readme/depth-preview-en.jpg" width="100%" alt="Art Director: shared references, samples, and review notes for a design team."></a>
-<p><strong>Spend less time re-explaining the design</strong></p>
-<p>Give teammates and their agents a shared set of references, samples, and decisions to work from across posters, products, UI, and game art.</p>
+<p><strong>A visual memory a creator can pass on</strong></p>
+<p>Those conversations with my friend led me to organize references, samples, and review notes into something a team and its agents could work from. The campaign example shows how the approach extends beyond game art.</p>
 <a href="https://github.com/NewenergyEric/art-director-skill/tree/main/examples/campaign-studio-draft">Explore the campaign example →</a> · <a href="https://newenergyeric.github.io/art-director-skill/docs/landing.html#film">Watch the film</a>
 </td>
 </tr>
@@ -68,13 +75,37 @@ Explore **[Game Dev Skills: four roles, one handoff](GAME-DEV-SKILLS.en.md)** fo
 
 </details>
 
-## How I approach the work
+## Where I’m still experimenting
 
-First, understand a real task: how it works now, what makes it difficult, and what a good result would look like. Then build a practical approach with an agent, try it in the actual workflow, and revise it. Keep the useful decisions, methods, and mistakes so the team and its agents can use them again.
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="media/work-still-en.png">
+  <img src="media/work-motion-en.gif" width="1100" alt="Work I do with AI: marketing, sales, brand, support, operations, data, products, agents, and shared methods.">
+</picture>
 
-**Solve the problem in front of us, and leave something useful for the next one.**
+<p align="right"><sub><a href="media/work-still-en.png">View the still image</a></sub></p>
 
-I’m still learning. If a task keeps getting stuck, you have an idea you’d like to try, or your team has experience worth turning into a tool, I’d be glad to compare notes. We can start with the work itself.
+<details>
+<summary><strong>Nine areas of work, and what I’m trying in each</strong></summary>
+
+| Area | The work I’m trying to make easier |
+|---|---|
+| **Marketing & content** | Carry audience research into a campaign, copy, visuals, and video storyboards. Keep what we learned useful through each revision. |
+| **Sales & partnerships** | Understand a prospect or partner, prepare a relevant proposal, and keep the next conversation clear. |
+| **Brand & positioning** | Explain who a product helps and why someone would choose it. Bring that idea into its words and visuals. |
+| **Support & knowledge** | Find the right information, draft a useful reply, and keep corrections so the next answer improves. |
+| **Operations & teamwork** | Make it clear what’s ready, what’s stuck, and who takes the next step. |
+| **Data & decisions** | Check how the numbers were calculated, investigate changes, and work out what to try next. |
+| **Products & interaction** | Turn a need into a usable tool, from browser helpers and local apps to voice and learning experiences. |
+| **Agent collaboration** | Help AI find the right material and use tools to finish a task, with people making the decisions that need judgment. |
+| **Methods & learning** | Turn useful experience and mistakes into guides, exercises, and Skills that others can build on. |
+
+</details>
+
+## Tell me about what you’re working on
+
+I want to keep finding ways for people’s judgment and experience to stay useful in their work, and for the next person to have something to build on.
+
+If you’re putting agents to work, or you have a way of doing things that you’re tired of explaining from scratch, I’d like to hear your story. We can start with one concrete problem and see what we can make together.
 
 [Browse the projects →](https://github.com/NewenergyEric?tab=repositories) · [Explore the work guides →](https://fde.aielsen.com/en/)
 
